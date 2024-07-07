@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level57
+  m_EditorClassIdentifier: 
+  LevelNumber: 57
+  LevelTitle: THANKSGIVING
+  SearchableWords:
+  - Word: APPLE
+  - Word: CARVE
+  - Word: DESSERT
+  - Word: DINNER
+  - Word: HAM
+  - Word: OVEN
+  - Word: PIE
+  - Word: SALAD
+  - Word: SAUCE
+  - Word: TASTY
+  - Word: TURKEY
+  Board:
+    Columns: 8
+    Rows: 9
+    BoardData:
+    - letters:
+      - T
+      - I
+      - N
+      - Y
+      - I
+      - R
+      - T
+      - T
+    - letters:
+      - H
+      - U
+      - S
+      - E
+      - E
+      - O
+      - C
+      - R
+    - letters:
+      - P
+      - C
+      - R
+      - N
+      - V
+      - A
+      - S
+      - E
+    - letters:
+      - I
+      - N
+      - N
+      - K
+      - R
+      - O
+      - A
+      - S
+    - letters:
+      - E
+      - I
+      - U
+      - V
+      - E
+      - P
+      - U
+      - S
+    - letters:
+      - D
+      - L
+      - E
+      - K
+      - N
+      - Y
+      - C
+      - E
+    - letters:
+      - H
+      - Y
+      - T
+      - S
+      - A
+      - T
+      - E
+      - D
+    - letters:
+      - A
+      - D
+      - A
+      - L
+      - A
+      - S
+      - E
+      - R
+    - letters:
+      - M
+      - A
+      - P
+      - P
+      - L
+      - E
+      - H
+      - I
+    AnswerKeys:
+    - Word: APPLE
+      row: 8
+      column: 1
+    - Word: CARVE
+      row: 1
+      column: 6
+    - Word: DESSERT
+      row: 6
+      column: 7
+    - Word: DINNER
+      row: 5
+      column: 0
+    - Word: HAM
+      row: 6
+      column: 0
+    - Word: OVEN
+      row: 3
+      column: 5
+    - Word: PIE
+      row: 2
+      column: 0
+    - Word: SALAD
+      row: 7
+      column: 5
+    - Word: SAUCE
+      row: 2
+      column: 6
+    - Word: TASTY
+      row: 6
+      column: 5
+    - Word: TURKEY
+      row: 0
+      column: 0

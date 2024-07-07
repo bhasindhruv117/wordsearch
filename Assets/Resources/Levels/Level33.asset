@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level33
+  m_EditorClassIdentifier: 
+  LevelNumber: 33
+  LevelTitle: WEATHER
+  SearchableWords:
+  - Word: CLEAR
+  - Word: COLD
+  - Word: DRY
+  - Word: HUMID
+  - Word: ICY
+  - Word: SUNNY
+  - Word: WARM
+  - Word: WINDY
+  Board:
+    Columns: 6
+    Rows: 7
+    BoardData:
+    - letters:
+      - H
+      - C
+      - L
+      - E
+      - A
+      - R
+    - letters:
+      - S
+      - U
+      - M
+      - R
+      - A
+      - W
+    - letters:
+      - U
+      - W
+      - M
+      - I
+      - C
+      - W
+    - letters:
+      - N
+      - C
+      - C
+      - I
+      - I
+      - J
+    - letters:
+      - N
+      - Y
+      - O
+      - N
+      - D
+      - Y
+    - letters:
+      - Y
+      - A
+      - D
+      - L
+      - R
+      - V
+    - letters:
+      - E
+      - Y
+      - C
+      - D
+      - D
+      - L
+    AnswerKeys:
+    - Word: CLEAR
+      row: 0
+      column: 1
+    - Word: COLD
+      row: 3
+      column: 1
+    - Word: DRY
+      row: 6
+      column: 3
+    - Word: HUMID
+      row: 0
+      column: 0
+    - Word: ICY
+      row: 2
+      column: 3
+    - Word: SUNNY
+      row: 1
+      column: 0
+    - Word: WARM
+      row: 1
+      column: 5
+    - Word: WINDY
+      row: 2
+      column: 5

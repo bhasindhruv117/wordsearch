@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level5
+  m_EditorClassIdentifier: 
+  LevelNumber: 5
+  LevelTitle: CAMPING
+  SearchableWords:
+  - Word: ANIMAL
+  - Word: FIRE
+  - Word: LAKE
+  - Word: MAP
+  - Word: MOON
+  - Word: NATURE
+  - Word: PARK
+  Board:
+    Columns: 6
+    Rows: 6
+    BoardData:
+    - letters:
+      - N
+      - A
+      - N
+      - O
+      - O
+      - M
+    - letters:
+      - A
+      - N
+      - M
+      - A
+      - P
+      - U
+    - letters:
+      - T
+      - I
+      - K
+      - R
+      - A
+      - P
+    - letters:
+      - U
+      - M
+      - E
+      - R
+      - I
+      - F
+    - letters:
+      - R
+      - A
+      - E
+      - K
+      - A
+      - L
+    - letters:
+      - E
+      - L
+      - E
+      - U
+      - I
+      - U
+    AnswerKeys:
+    - Word: ANIMAL
+      row: 0
+      column: 1
+    - Word: FIRE
+      row: 3
+      column: 5
+    - Word: LAKE
+      row: 4
+      column: 5
+    - Word: MAP
+      row: 1
+      column: 2
+    - Word: MOON
+      row: 0
+      column: 5
+    - Word: NATURE
+      row: 0
+      column: 0
+    - Word: PARK
+      row: 2
+      column: 5

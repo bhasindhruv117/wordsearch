@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level97
+  m_EditorClassIdentifier: 
+  LevelNumber: 97
+  LevelTitle: THINGS BABIES DO
+  SearchableWords:
+  - Word: CALL
+  - Word: CRAWL
+  - Word: CUDDLE
+  - Word: FALL
+  - Word: GIGGLE
+  - Word: HIDE
+  - Word: LEARN
+  - Word: LISTEN
+  - Word: MESS
+  - Word: SHOUT
+  - Word: SLEEP
+  - Word: TALK
+  - Word: TICKLE
+  - Word: WALK
+  Board:
+    Columns: 9
+    Rows: 10
+    BoardData:
+    - letters:
+      - E
+      - L
+      - E
+      - L
+      - G
+      - G
+      - I
+      - G
+      - C
+    - letters:
+      - G
+      - D
+      - T
+      - A
+      - L
+      - K
+      - T
+      - H
+      - A
+    - letters:
+      - C
+      - H
+      - I
+      - N
+      - R
+      - I
+      - S
+      - P
+      - L
+    - letters:
+      - T
+      - U
+      - A
+      - H
+      - C
+      - A
+      - E
+      - W
+      - L
+    - letters:
+      - U
+      - E
+      - D
+      - K
+      - L
+      - M
+      - E
+      - S
+      - S
+    - letters:
+      - O
+      - K
+      - L
+      - D
+      - C
+      - E
+      - S
+      - O
+      - L
+    - letters:
+      - H
+      - E
+      - L
+      - R
+      - L
+      - L
+      - A
+      - L
+      - O
+    - letters:
+      - S
+      - E
+      - A
+      - A
+      - E
+      - E
+      - A
+      - R
+      - G
+    - letters:
+      - R
+      - W
+      - L
+      - E
+      - W
+      - F
+      - C
+      - N
+      - N
+    - letters:
+      - L
+      - P
+      - P
+      - N
+      - E
+      - T
+      - S
+      - I
+      - L
+    AnswerKeys:
+    - Word: CALL
+      row: 0
+      column: 8
+    - Word: CRAWL
+      row: 5
+      column: 4
+    - Word: CUDDLE
+      row: 2
+      column: 0
+    - Word: FALL
+      row: 8
+      column: 5
+    - Word: GIGGLE
+      row: 0
+      column: 7
+    - Word: HIDE
+      row: 3
+      column: 3
+    - Word: LEARN
+      row: 4
+      column: 4
+    - Word: LISTEN
+      row: 9
+      column: 8
+    - Word: MESS
+      row: 4
+      column: 5
+    - Word: SHOUT
+      row: 7
+      column: 0
+    - Word: SLEEP
+      row: 5
+      column: 6
+    - Word: TALK
+      row: 1
+      column: 2
+    - Word: TICKLE
+      row: 1
+      column: 6
+    - Word: WALK
+      row: 8
+      column: 4

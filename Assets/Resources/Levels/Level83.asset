@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level83
+  m_EditorClassIdentifier: 
+  LevelNumber: 83
+  LevelTitle: SUMMER
+  SearchableWords:
+  - Word: BOAT
+  - Word: DAISY
+  - Word: FAMILY
+  - Word: HIKING
+  - Word: OCEAN
+  - Word: OUTING
+  - Word: RELAX
+  - Word: TRAVEL
+  - Word: VISIT
+  - Word: VOYAGE
+  Board:
+    Columns: 8
+    Rows: 9
+    BoardData:
+    - letters:
+      - Y
+      - L
+      - I
+      - M
+      - A
+      - F
+      - Y
+      - K
+    - letters:
+      - O
+      - G
+      - N
+      - I
+      - K
+      - I
+      - H
+      - G
+    - letters:
+      - S
+      - C
+      - T
+      - R
+      - A
+      - V
+      - E
+      - L
+    - letters:
+      - X
+      - H
+      - E
+      - B
+      - H
+      - O
+      - E
+      - O
+    - letters:
+      - N
+      - A
+      - O
+      - A
+      - U
+      - Y
+      - G
+      - T
+    - letters:
+      - Y
+      - A
+      - L
+      - T
+      - N
+      - S
+      - A
+      - I
+    - letters:
+      - T
+      - Y
+      - I
+      - E
+      - H
+      - I
+      - Y
+      - S
+    - letters:
+      - E
+      - N
+      - O
+      - A
+      - R
+      - A
+      - O
+      - I
+    - letters:
+      - G
+      - E
+      - N
+      - O
+      - S
+      - D
+      - V
+      - V
+    AnswerKeys:
+    - Word: BOAT
+      row: 3
+      column: 3
+    - Word: DAISY
+      row: 8
+      column: 5
+    - Word: FAMILY
+      row: 0
+      column: 5
+    - Word: HIKING
+      row: 1
+      column: 6
+    - Word: OCEAN
+      row: 1
+      column: 0
+    - Word: OUTING
+      row: 3
+      column: 5
+    - Word: RELAX
+      row: 7
+      column: 4
+    - Word: TRAVEL
+      row: 2
+      column: 2
+    - Word: VISIT
+      row: 8
+      column: 7
+    - Word: VOYAGE
+      row: 8
+      column: 6

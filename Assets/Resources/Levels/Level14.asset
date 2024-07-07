@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level14
+  m_EditorClassIdentifier: 
+  LevelNumber: 14
+  LevelTitle: KEPT IN POCKET
+  SearchableWords:
+  - Word: BANDAGE
+  - Word: COIN
+  - Word: KEYS
+  - Word: LIGHTER
+  - Word: MINTS
+  - Word: PEN
+  - Word: PHONE
+  - Word: WALLET
+  Board:
+    Columns: 7
+    Rows: 8
+    BoardData:
+    - letters:
+      - B
+      - P
+      - P
+      - A
+      - G
+      - P
+      - O
+    - letters:
+      - A
+      - H
+      - S
+      - A
+      - E
+      - P
+      - R
+    - letters:
+      - N
+      - O
+      - Y
+      - N
+      - S
+      - E
+      - C
+    - letters:
+      - D
+      - N
+      - E
+      - D
+      - T
+      - O
+      - O
+    - letters:
+      - A
+      - E
+      - K
+      - H
+      - D
+      - R
+      - I
+    - letters:
+      - G
+      - W
+      - G
+      - K
+      - R
+      - C
+      - N
+    - letters:
+      - E
+      - I
+      - M
+      - I
+      - N
+      - T
+      - S
+    - letters:
+      - L
+      - T
+      - E
+      - L
+      - L
+      - A
+      - W
+    AnswerKeys:
+    - Word: BANDAGE
+      row: 0
+      column: 0
+    - Word: COIN
+      row: 2
+      column: 6
+    - Word: KEYS
+      row: 4
+      column: 2
+    - Word: LIGHTER
+      row: 7
+      column: 0
+    - Word: MINTS
+      row: 6
+      column: 2
+    - Word: PEN
+      row: 0
+      column: 5
+    - Word: PHONE
+      row: 0
+      column: 1
+    - Word: WALLET
+      row: 7
+      column: 6

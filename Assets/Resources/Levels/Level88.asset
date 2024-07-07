@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level88
+  m_EditorClassIdentifier: 
+  LevelNumber: 88
+  LevelTitle: THINGS TO COUNT
+  SearchableWords:
+  - Word: AGE
+  - Word: BLESSING
+  - Word: BUTTON
+  - Word: COIN
+  - Word: FINGER
+  - Word: HEAD
+  - Word: MISTAKE
+  - Word: PENCIL
+  - Word: SEAT
+  - Word: TEETH
+  - Word: YEAR
+  Board:
+    Columns: 8
+    Rows: 9
+    BoardData:
+    - letters:
+      - R
+      - E
+      - G
+      - N
+      - I
+      - F
+      - D
+      - G
+    - letters:
+      - C
+      - B
+      - F
+      - S
+      - H
+      - I
+      - N
+      - K
+    - letters:
+      - O
+      - T
+      - U
+      - T
+      - E
+      - I
+      - K
+      - D
+    - letters:
+      - I
+      - T
+      - E
+      - T
+      - S
+      - A
+      - A
+      - E
+    - letters:
+      - N
+      - E
+      - D
+      - S
+      - T
+      - E
+      - T
+      - G
+    - letters:
+      - T
+      - A
+      - E
+      - F
+      - H
+      - O
+      - H
+      - A
+    - letters:
+      - P
+      - L
+      - Y
+      - E
+      - A
+      - R
+      - N
+      - A
+    - letters:
+      - B
+      - M
+      - I
+      - S
+      - T
+      - A
+      - K
+      - E
+    - letters:
+      - P
+      - E
+      - N
+      - C
+      - I
+      - L
+      - N
+      - E
+    AnswerKeys:
+    - Word: AGE
+      row: 5
+      column: 7
+    - Word: BLESSING
+      row: 7
+      column: 0
+    - Word: BUTTON
+      row: 1
+      column: 1
+    - Word: COIN
+      row: 1
+      column: 0
+    - Word: FINGER
+      row: 0
+      column: 5
+    - Word: HEAD
+      row: 5
+      column: 4
+    - Word: MISTAKE
+      row: 7
+      column: 1
+    - Word: PENCIL
+      row: 8
+      column: 0
+    - Word: SEAT
+      row: 1
+      column: 3
+    - Word: TEETH
+      row: 5
+      column: 0
+    - Word: YEAR
+      row: 6
+      column: 2

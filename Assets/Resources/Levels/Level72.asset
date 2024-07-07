@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level72
+  m_EditorClassIdentifier: 
+  LevelNumber: 72
+  LevelTitle: COLOR GREEN
+  SearchableWords:
+  - Word: APPLE
+  - Word: BELT
+  - Word: CABBAGE
+  - Word: CHILLI
+  - Word: GRAPE
+  - Word: GRASS
+  - Word: JADE
+  - Word: KALE
+  - Word: LUSH
+  - Word: MELON
+  - Word: NATURE
+  - Word: PARROT
+  - Word: PEAR
+  - Word: TREE
+  Board:
+    Columns: 9
+    Rows: 10
+    BoardData:
+    - letters:
+      - I
+      - T
+      - C
+      - K
+      - B
+      - E
+      - L
+      - T
+      - B
+    - letters:
+      - N
+      - G
+      - O
+      - R
+      - A
+      - M
+      - K
+      - E
+      - S
+    - letters:
+      - U
+      - O
+      - R
+      - R
+      - E
+      - L
+      - A
+      - P
+      - S
+    - letters:
+      - C
+      - L
+      - L
+      - D
+      - R
+      - P
+      - E
+      - A
+      - S
+    - letters:
+      - A
+      - H
+      - A
+      - E
+      - P
+      - A
+      - E
+      - R
+      - A
+    - letters:
+      - H
+      - J
+      - I
+      - L
+      - M
+      - R
+      - P
+      - G
+      - R
+    - letters:
+      - P
+      - S
+      - E
+      - L
+      - U
+      - L
+      - S
+      - T
+      - G
+    - letters:
+      - E
+      - E
+      - U
+      - T
+      - L
+      - T
+      - R
+      - E
+      - E
+    - letters:
+      - A
+      - C
+      - A
+      - L
+      - T
+      - I
+      - M
+      - P
+      - C
+    - letters:
+      - R
+      - N
+      - E
+      - G
+      - A
+      - B
+      - B
+      - A
+      - C
+    AnswerKeys:
+    - Word: APPLE
+      row: 2
+      column: 6
+    - Word: BELT
+      row: 0
+      column: 4
+    - Word: CABBAGE
+      row: 9
+      column: 8
+    - Word: CHILLI
+      row: 3
+      column: 0
+    - Word: GRAPE
+      row: 5
+      column: 7
+    - Word: GRASS
+      row: 6
+      column: 8
+    - Word: JADE
+      row: 5
+      column: 1
+    - Word: KALE
+      row: 0
+      column: 3
+    - Word: LUSH
+      row: 8
+      column: 3
+    - Word: MELON
+      row: 5
+      column: 4
+    - Word: NATURE
+      row: 9
+      column: 1
+    - Word: PARROT
+      row: 5
+      column: 6
+    - Word: PEAR
+      row: 6
+      column: 0
+    - Word: TREE
+      row: 7
+      column: 5

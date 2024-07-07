@@ -1,0 +1,174 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level74
+  m_EditorClassIdentifier: 
+  LevelNumber: 74
+  LevelTitle: CITY
+  SearchableWords:
+  - Word: AIRPORT
+  - Word: BAR
+  - Word: CAFE
+  - Word: HOTEL
+  - Word: MUSEUM
+  - Word: PARK
+  - Word: SQUARE
+  - Word: STADIUM
+  - Word: STATION
+  - Word: STREET
+  - Word: TAXI
+  - Word: TOWER
+  - Word: TRAFFIC
+  Board:
+    Columns: 9
+    Rows: 10
+    BoardData:
+    - letters:
+      - T
+      - N
+      - I
+      - P
+      - L
+      - S
+      - R
+      - T
+      - L
+    - letters:
+      - L
+      - R
+      - A
+      - M
+      - Q
+      - E
+      - R
+      - A
+      - O
+    - letters:
+      - S
+      - R
+      - A
+      - U
+      - U
+      - O
+      - T
+      - S
+      - B
+    - letters:
+      - K
+      - T
+      - A
+      - F
+      - P
+      - S
+      - T
+      - O
+      - T
+    - letters:
+      - S
+      - R
+      - A
+      - R
+      - F
+      - A
+      - E
+      - O
+      - H
+    - letters:
+      - E
+      - T
+      - I
+      - T
+      - D
+      - I
+      - W
+      - U
+      - E
+    - letters:
+      - I
+      - A
+      - R
+      - I
+      - I
+      - E
+      - C
+      - F
+      - M
+    - letters:
+      - S
+      - X
+      - U
+      - E
+      - R
+      - O
+      - A
+      - B
+      - F
+    - letters:
+      - C
+      - M
+      - A
+      - C
+      - E
+      - C
+      - N
+      - I
+      - R
+    - letters:
+      - D
+      - X
+      - M
+      - T
+      - M
+      - T
+      - F
+      - X
+      - D
+    AnswerKeys:
+    - Word: AIRPORT
+      row: 6
+      column: 1
+    - Word: BAR
+      row: 2
+      column: 8
+    - Word: CAFE
+      row: 8
+      column: 5
+    - Word: HOTEL
+      row: 4
+      column: 8
+    - Word: MUSEUM
+      row: 1
+      column: 3
+    - Word: PARK
+      row: 0
+      column: 3
+    - Word: SQUARE
+      row: 0
+      column: 5
+    - Word: STADIUM
+      row: 2
+      column: 7
+    - Word: STATION
+      row: 2
+      column: 0
+    - Word: STREET
+      row: 4
+      column: 0
+    - Word: TAXI
+      row: 9
+      column: 3
+    - Word: TOWER
+      row: 3
+      column: 8
+    - Word: TRAFFIC
+      row: 0
+      column: 0

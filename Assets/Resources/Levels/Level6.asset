@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level6
+  m_EditorClassIdentifier: 
+  LevelNumber: 6
+  LevelTitle: MAGIC
+  SearchableWords:
+  - Word: CURSE
+  - Word: PRANK
+  - Word: RABBIT
+  - Word: SHOW
+  - Word: SPIRIT
+  - Word: VANISH
+  Board:
+    Columns: 6
+    Rows: 6
+    BoardData:
+    - letters:
+      - R
+      - A
+      - B
+      - B
+      - I
+      - T
+    - letters:
+      - V
+      - A
+      - N
+      - I
+      - S
+      - H
+    - letters:
+      - S
+      - P
+      - I
+      - R
+      - I
+      - T
+    - letters:
+      - H
+      - W
+      - O
+      - H
+      - S
+      - P
+    - letters:
+      - W
+      - C
+      - U
+      - R
+      - S
+      - E
+    - letters:
+      - T
+      - K
+      - N
+      - A
+      - R
+      - P
+    AnswerKeys:
+    - Word: CURSE
+      row: 4
+      column: 1
+    - Word: PRANK
+      row: 5
+      column: 5
+    - Word: RABBIT
+      row: 0
+      column: 0
+    - Word: SHOW
+      row: 3
+      column: 4
+    - Word: SPIRIT
+      row: 2
+      column: 0
+    - Word: VANISH
+      row: 1
+      column: 0

@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level34
+  m_EditorClassIdentifier: 
+  LevelNumber: 34
+  LevelTitle: BABY ANIMALS
+  SearchableWords:
+  - Word: CALF
+  - Word: CHICK
+  - Word: DUCKLING
+  - Word: EAGLET
+  - Word: KID
+  - Word: KITTEN
+  - Word: LAMB
+  - Word: LARVA
+  - Word: PUP
+  Board:
+    Columns: 7
+    Rows: 8
+    BoardData:
+    - letters:
+      - D
+      - E
+      - A
+      - G
+      - L
+      - E
+      - T
+    - letters:
+      - U
+      - T
+      - C
+      - P
+      - K
+      - I
+      - D
+    - letters:
+      - C
+      - K
+      - U
+      - H
+      - R
+      - K
+      - L
+    - letters:
+      - K
+      - P
+      - I
+      - P
+      - I
+      - A
+      - A
+    - letters:
+      - L
+      - C
+      - P
+      - T
+      - R
+      - C
+      - L
+    - letters:
+      - I
+      - A
+      - P
+      - V
+      - T
+      - A
+      - K
+    - letters:
+      - N
+      - L
+      - A
+      - C
+      - M
+      - E
+      - L
+    - letters:
+      - G
+      - F
+      - D
+      - B
+      - X
+      - Y
+      - N
+    AnswerKeys:
+    - Word: CALF
+      row: 4
+      column: 1
+    - Word: CHICK
+      row: 1
+      column: 2
+    - Word: DUCKLING
+      row: 0
+      column: 0
+    - Word: EAGLET
+      row: 0
+      column: 1
+    - Word: KID
+      row: 1
+      column: 4
+    - Word: KITTEN
+      row: 2
+      column: 1
+    - Word: LAMB
+      row: 4
+      column: 6
+    - Word: LARVA
+      row: 2
+      column: 6
+    - Word: PUP
+      row: 3
+      column: 1

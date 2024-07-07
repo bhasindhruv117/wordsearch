@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level90
+  m_EditorClassIdentifier: 
+  LevelNumber: 90
+  LevelTitle: SMELLS BAD
+  SearchableWords:
+  - Word: ASHTRAY
+  - Word: CHEESE
+  - Word: FISH
+  - Word: GARBAGE
+  - Word: GUTTER
+  - Word: MANURE
+  - Word: ONION
+  - Word: SEWAGE
+  - Word: SMOKING
+  - Word: TOFU
+  Board:
+    Columns: 8
+    Rows: 9
+    BoardData:
+    - letters:
+      - S
+      - E
+      - W
+      - A
+      - G
+      - E
+      - M
+      - N
+    - letters:
+      - S
+      - H
+      - N
+      - Y
+      - B
+      - A
+      - H
+      - A
+    - letters:
+      - M
+      - S
+      - A
+      - O
+      - N
+      - T
+      - E
+      - S
+    - letters:
+      - O
+      - I
+      - R
+      - U
+      - I
+      - G
+      - F
+      - H
+    - letters:
+      - K
+      - F
+      - R
+      - E
+      - A
+      - N
+      - T
+      - T
+    - letters:
+      - I
+      - E
+      - N
+      - B
+      - T
+      - O
+      - O
+      - R
+    - letters:
+      - N
+      - W
+      - R
+      - F
+      - F
+      - T
+      - U
+      - A
+    - letters:
+      - G
+      - A
+      - R
+      - U
+      - R
+      - N
+      - U
+      - Y
+    - letters:
+      - G
+      - C
+      - H
+      - E
+      - E
+      - S
+      - E
+      - G
+    AnswerKeys:
+    - Word: ASHTRAY
+      row: 1
+      column: 7
+    - Word: CHEESE
+      row: 8
+      column: 1
+    - Word: FISH
+      row: 4
+      column: 1
+    - Word: GARBAGE
+      row: 8
+      column: 0
+    - Word: GUTTER
+      row: 8
+      column: 7
+    - Word: MANURE
+      row: 0
+      column: 6
+    - Word: ONION
+      row: 5
+      column: 6
+    - Word: SEWAGE
+      row: 0
+      column: 0
+    - Word: SMOKING
+      row: 1
+      column: 0
+    - Word: TOFU
+      row: 4
+      column: 6

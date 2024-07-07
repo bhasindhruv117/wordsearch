@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level48
+  m_EditorClassIdentifier: 
+  LevelNumber: 48
+  LevelTitle: MADE OF GLASS
+  SearchableWords:
+  - Word: BOTTLE
+  - Word: BOWL
+  - Word: GOBLET
+  - Word: JARS
+  - Word: MIRROR
+  - Word: MOSAIC
+  - Word: WATCH
+  - Word: WINDOW
+  Board:
+    Columns: 7
+    Rows: 8
+    BoardData:
+    - letters:
+      - M
+      - H
+      - B
+      - O
+      - W
+      - L
+      - B
+    - letters:
+      - O
+      - L
+      - C
+      - G
+      - A
+      - O
+      - W
+    - letters:
+      - S
+      - G
+      - D
+      - T
+      - T
+      - N
+      - I
+    - letters:
+      - A
+      - H
+      - O
+      - T
+      - A
+      - A
+      - N
+    - letters:
+      - I
+      - N
+      - L
+      - B
+      - D
+      - W
+      - D
+    - letters:
+      - C
+      - E
+      - J
+      - B
+      - L
+      - A
+      - O
+    - letters:
+      - Q
+      - S
+      - R
+      - A
+      - J
+      - E
+      - W
+    - letters:
+      - R
+      - O
+      - R
+      - R
+      - I
+      - M
+      - T
+    AnswerKeys:
+    - Word: BOTTLE
+      row: 0
+      column: 6
+    - Word: BOWL
+      row: 0
+      column: 2
+    - Word: GOBLET
+      row: 2
+      column: 1
+    - Word: JARS
+      row: 6
+      column: 4
+    - Word: MIRROR
+      row: 7
+      column: 5
+    - Word: MOSAIC
+      row: 0
+      column: 0
+    - Word: WATCH
+      row: 4
+      column: 5
+    - Word: WINDOW
+      row: 1
+      column: 6

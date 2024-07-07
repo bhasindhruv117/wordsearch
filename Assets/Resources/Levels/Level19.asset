@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level19
+  m_EditorClassIdentifier: 
+  LevelNumber: 19
+  LevelTitle: RELATED TO TIME
+  SearchableWords:
+  - Word: AFTER
+  - Word: FUTURE
+  - Word: PERIOD
+  - Word: SINCE
+  - Word: TIDE
+  - Word: WHEN
+  Board:
+    Columns: 6
+    Rows: 7
+    BoardData:
+    - letters:
+      - E
+      - R
+      - U
+      - T
+      - U
+      - F
+    - letters:
+      - A
+      - U
+      - W
+      - S
+      - F
+      - D
+    - letters:
+      - E
+      - F
+      - C
+      - I
+      - O
+      - S
+    - letters:
+      - D
+      - C
+      - T
+      - I
+      - E
+      - I
+    - letters:
+      - I
+      - W
+      - R
+      - E
+      - F
+      - N
+    - letters:
+      - T
+      - E
+      - O
+      - P
+      - R
+      - C
+    - letters:
+      - P
+      - N
+      - E
+      - H
+      - W
+      - E
+    AnswerKeys:
+    - Word: AFTER
+      row: 1
+      column: 0
+    - Word: FUTURE
+      row: 0
+      column: 5
+    - Word: PERIOD
+      row: 6
+      column: 0
+    - Word: SINCE
+      row: 2
+      column: 5
+    - Word: TIDE
+      row: 5
+      column: 0
+    - Word: WHEN
+      row: 6
+      column: 4

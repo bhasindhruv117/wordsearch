@@ -1,0 +1,170 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level69
+  m_EditorClassIdentifier: 
+  LevelNumber: 69
+  LevelTitle: DENTIST
+  SearchableWords:
+  - Word: BRUSH
+  - Word: CAST
+  - Word: EXTRACT
+  - Word: FLOSS
+  - Word: MOUTH
+  - Word: NEEDLE
+  - Word: NUMB
+  - Word: NURSE
+  - Word: SURGERY
+  - Word: SWEET
+  - Word: THERAPY
+  - Word: TREAT
+  Board:
+    Columns: 9
+    Rows: 10
+    BoardData:
+    - letters:
+      - X
+      - E
+      - N
+      - U
+      - R
+      - S
+      - E
+      - Y
+      - W
+    - letters:
+      - R
+      - A
+      - E
+      - M
+      - A
+      - U
+      - S
+      - S
+      - S
+    - letters:
+      - H
+      - Y
+      - E
+      - T
+      - O
+      - W
+      - F
+      - S
+      - N
+    - letters:
+      - S
+      - S
+      - O
+      - X
+      - E
+      - U
+      - O
+      - U
+      - U
+    - letters:
+      - U
+      - U
+      - T
+      - E
+      - T
+      - L
+      - T
+      - U
+      - M
+    - letters:
+      - R
+      - R
+      - T
+      - T
+      - F
+      - R
+      - X
+      - H
+      - B
+    - letters:
+      - B
+      - G
+      - T
+      - S
+      - A
+      - C
+      - A
+      - S
+      - N
+    - letters:
+      - R
+      - E
+      - T
+      - R
+      - E
+      - A
+      - T
+      - C
+      - T
+    - letters:
+      - F
+      - R
+      - N
+      - E
+      - E
+      - D
+      - L
+      - E
+      - T
+    - letters:
+      - L
+      - Y
+      - Y
+      - P
+      - A
+      - R
+      - E
+      - H
+      - T
+    AnswerKeys:
+    - Word: BRUSH
+      row: 6
+      column: 0
+    - Word: CAST
+      row: 6
+      column: 5
+    - Word: EXTRACT
+      row: 2
+      column: 2
+    - Word: FLOSS
+      row: 5
+      column: 4
+    - Word: MOUTH
+      row: 1
+      column: 3
+    - Word: NEEDLE
+      row: 8
+      column: 2
+    - Word: NUMB
+      row: 2
+      column: 8
+    - Word: NURSE
+      row: 0
+      column: 2
+    - Word: SURGERY
+      row: 3
+      column: 1
+    - Word: SWEET
+      row: 1
+      column: 6
+    - Word: THERAPY
+      row: 9
+      column: 8
+    - Word: TREAT
+      row: 7
+      column: 2

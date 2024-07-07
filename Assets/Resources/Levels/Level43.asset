@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level43
+  m_EditorClassIdentifier: 
+  LevelNumber: 43
+  LevelTitle: FRUITS
+  SearchableWords:
+  - Word: BANANA
+  - Word: GRAPES
+  - Word: GUAVA
+  - Word: KIWI
+  - Word: LIME
+  - Word: PEACH
+  - Word: PLUM
+  - Word: TOMATO
+  Board:
+    Columns: 7
+    Rows: 8
+    BoardData:
+    - letters:
+      - P
+      - M
+      - L
+      - L
+      - M
+      - G
+      - A
+    - letters:
+      - E
+      - U
+      - A
+      - E
+      - R
+      - V
+      - L
+    - letters:
+      - A
+      - L
+      - E
+      - A
+      - A
+      - I
+      - B
+    - letters:
+      - C
+      - P
+      - P
+      - U
+      - M
+      - O
+      - R
+    - letters:
+      - H
+      - E
+      - G
+      - E
+      - S
+      - H
+      - N
+    - letters:
+      - S
+      - B
+      - A
+      - N
+      - A
+      - N
+      - A
+    - letters:
+      - T
+      - O
+      - M
+      - A
+      - T
+      - O
+      - O
+    - letters:
+      - N
+      - N
+      - K
+      - I
+      - W
+      - I
+      - O
+    AnswerKeys:
+    - Word: BANANA
+      row: 5
+      column: 1
+    - Word: GRAPES
+      row: 0
+      column: 5
+    - Word: GUAVA
+      row: 4
+      column: 2
+    - Word: KIWI
+      row: 7
+      column: 2
+    - Word: LIME
+      row: 1
+      column: 6
+    - Word: PEACH
+      row: 0
+      column: 0
+    - Word: PLUM
+      row: 3
+      column: 1
+    - Word: TOMATO
+      row: 6
+      column: 0

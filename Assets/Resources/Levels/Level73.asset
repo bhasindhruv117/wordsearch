@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level73
+  m_EditorClassIdentifier: 
+  LevelNumber: 73
+  LevelTitle: OCEANS
+  SearchableWords:
+  - Word: ATOLL
+  - Word: BAY
+  - Word: BEACH
+  - Word: CURRENT
+  - Word: DEEP
+  - Word: DIVE
+  - Word: ICEBERG
+  - Word: SHIP
+  - Word: SHOAL
+  - Word: VORTEX
+  - Word: WHIRL
+  Board:
+    Columns: 8
+    Rows: 9
+    BoardData:
+    - letters:
+      - B
+      - P
+      - I
+      - H
+      - S
+      - I
+      - S
+      - A
+    - letters:
+      - E
+      - X
+      - P
+      - E
+      - E
+      - D
+      - I
+      - B
+    - letters:
+      - A
+      - B
+      - E
+      - E
+      - V
+      - I
+      - D
+      - C
+    - letters:
+      - C
+      - A
+      - A
+      - T
+      - L
+      - A
+      - S
+      - U
+    - letters:
+      - H
+      - E
+      - T
+      - R
+      - R
+      - H
+      - E
+      - R
+    - letters:
+      - U
+      - B
+      - I
+      - O
+      - O
+      - O
+      - S
+      - R
+    - letters:
+      - W
+      - H
+      - A
+      - A
+      - L
+      - G
+      - V
+      - E
+    - letters:
+      - W
+      - N
+      - L
+      - Y
+      - S
+      - L
+      - H
+      - N
+    - letters:
+      - I
+      - C
+      - E
+      - B
+      - E
+      - R
+      - G
+      - T
+    AnswerKeys:
+    - Word: ATOLL
+      row: 3
+      column: 1
+    - Word: BAY
+      row: 5
+      column: 1
+    - Word: BEACH
+      row: 0
+      column: 0
+    - Word: CURRENT
+      row: 2
+      column: 7
+    - Word: DEEP
+      row: 1
+      column: 5
+    - Word: DIVE
+      row: 2
+      column: 6
+    - Word: ICEBERG
+      row: 8
+      column: 0
+    - Word: SHIP
+      row: 0
+      column: 4
+    - Word: SHOAL
+      row: 3
+      column: 6
+    - Word: VORTEX
+      row: 6
+      column: 6
+    - Word: WHIRL
+      row: 7
+      column: 0

@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level12
+  m_EditorClassIdentifier: 
+  LevelNumber: 12
+  LevelTitle: GAMES
+  SearchableWords:
+  - Word: CARD
+  - Word: CLUE
+  - Word: DICE
+  - Word: LUDO
+  - Word: MATCH
+  - Word: SCORE
+  - Word: TIE
+  Board:
+    Columns: 6
+    Rows: 6
+    BoardData:
+    - letters:
+      - T
+      - I
+      - E
+      - L
+      - C
+      - E
+    - letters:
+      - T
+      - E
+      - U
+      - C
+      - A
+      - C
+    - letters:
+      - L
+      - D
+      - R
+      - T
+      - R
+      - I
+    - letters:
+      - O
+      - E
+      - H
+      - O
+      - D
+      - D
+    - letters:
+      - C
+      - L
+      - U
+      - E
+      - C
+      - L
+    - letters:
+      - H
+      - C
+      - T
+      - A
+      - M
+      - S
+    AnswerKeys:
+    - Word: CARD
+      row: 0
+      column: 4
+    - Word: CLUE
+      row: 4
+      column: 0
+    - Word: DICE
+      row: 3
+      column: 5
+    - Word: LUDO
+      row: 0
+      column: 3
+    - Word: MATCH
+      row: 5
+      column: 4
+    - Word: SCORE
+      row: 5
+      column: 5
+    - Word: TIE
+      row: 0
+      column: 0

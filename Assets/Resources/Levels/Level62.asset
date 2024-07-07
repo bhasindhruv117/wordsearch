@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level62
+  m_EditorClassIdentifier: 
+  LevelNumber: 62
+  LevelTitle: RESTAURANT
+  SearchableWords:
+  - Word: BILL
+  - Word: BOWL
+  - Word: CHAIR
+  - Word: CHARGE
+  - Word: MEAT
+  - Word: NAPKIN
+  - Word: ORDER
+  - Word: SPICY
+  - Word: SPOON
+  - Word: TIP
+  - Word: TOAST
+  Board:
+    Columns: 8
+    Rows: 9
+    BoardData:
+    - letters:
+      - D
+      - R
+      - A
+      - S
+      - P
+      - I
+      - C
+      - Y
+    - letters:
+      - G
+      - L
+      - P
+      - L
+      - E
+      - L
+      - O
+      - M
+    - letters:
+      - P
+      - I
+      - B
+      - M
+      - D
+      - L
+      - R
+      - K
+    - letters:
+      - T
+      - O
+      - E
+      - O
+      - C
+      - I
+      - D
+      - N
+    - letters:
+      - Y
+      - A
+      - A
+      - H
+      - W
+      - B
+      - E
+      - I
+    - letters:
+      - T
+      - T
+      - A
+      - B
+      - G
+      - L
+      - R
+      - K
+    - letters:
+      - E
+      - I
+      - S
+      - P
+      - O
+      - O
+      - N
+      - P
+    - letters:
+      - R
+      - C
+      - H
+      - A
+      - R
+      - G
+      - E
+      - A
+    - letters:
+      - T
+      - O
+      - A
+      - S
+      - T
+      - C
+      - N
+      - N
+    AnswerKeys:
+    - Word: BILL
+      row: 4
+      column: 5
+    - Word: BOWL
+      row: 2
+      column: 2
+    - Word: CHAIR
+      row: 3
+      column: 4
+    - Word: CHARGE
+      row: 7
+      column: 1
+    - Word: MEAT
+      row: 2
+      column: 3
+    - Word: NAPKIN
+      row: 8
+      column: 7
+    - Word: ORDER
+      row: 1
+      column: 6
+    - Word: SPICY
+      row: 0
+      column: 3
+    - Word: SPOON
+      row: 6
+      column: 2
+    - Word: TIP
+      row: 3
+      column: 0
+    - Word: TOAST
+      row: 8
+      column: 0

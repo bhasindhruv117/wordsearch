@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level86
+  m_EditorClassIdentifier: 
+  LevelNumber: 86
+  LevelTitle: GRANULAR OR POWDERED
+  SearchableWords:
+  - Word: COCOA
+  - Word: CRYSTAL
+  - Word: DUST
+  - Word: MALT
+  - Word: MILLET
+  - Word: MINERAL
+  - Word: RICE
+  - Word: SALT
+  - Word: SAND
+  - Word: SEED
+  - Word: SPICE
+  Board:
+    Columns: 8
+    Rows: 9
+    BoardData:
+    - letters:
+      - P
+      - T
+      - N
+      - E
+      - C
+      - I
+      - P
+      - S
+    - letters:
+      - M
+      - T
+      - L
+      - P
+      - L
+      - R
+      - S
+      - C
+    - letters:
+      - I
+      - L
+      - A
+      - A
+      - I
+      - N
+      - T
+      - O
+    - letters:
+      - L
+      - Y
+      - A
+      - C
+      - S
+      - D
+      - L
+      - C
+    - letters:
+      - L
+      - T
+      - E
+      - T
+      - E
+      - Y
+      - A
+      - O
+    - letters:
+      - E
+      - M
+      - S
+      - E
+      - S
+      - T
+      - M
+      - A
+    - letters:
+      - T
+      - L
+      - S
+      - U
+      - T
+      - Y
+      - L
+      - T
+    - letters:
+      - S
+      - A
+      - N
+      - D
+      - D
+      - M
+      - R
+      - D
+    - letters:
+      - L
+      - A
+      - R
+      - E
+      - N
+      - I
+      - M
+      - C
+    AnswerKeys:
+    - Word: COCOA
+      row: 1
+      column: 7
+    - Word: CRYSTAL
+      row: 8
+      column: 7
+    - Word: DUST
+      row: 7
+      column: 4
+    - Word: MALT
+      row: 5
+      column: 6
+    - Word: MILLET
+      row: 1
+      column: 0
+    - Word: MINERAL
+      row: 8
+      column: 6
+    - Word: RICE
+      row: 1
+      column: 5
+    - Word: SALT
+      row: 3
+      column: 4
+    - Word: SAND
+      row: 7
+      column: 0
+    - Word: SEED
+      row: 6
+      column: 2
+    - Word: SPICE
+      row: 0
+      column: 7

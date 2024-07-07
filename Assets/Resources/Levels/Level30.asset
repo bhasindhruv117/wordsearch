@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level30
+  m_EditorClassIdentifier: 
+  LevelNumber: 30
+  LevelTitle: ICE CREAM FLAVORS
+  SearchableWords:
+  - Word: ALMOND
+  - Word: BANANA
+  - Word: CARAMEL
+  - Word: CHERRY
+  - Word: CHOCOLATE
+  - Word: COCONUT
+  - Word: COFFEE
+  - Word: MINT
+  - Word: PEACH
+  - Word: VANILLA
+  Board:
+    Columns: 8
+    Rows: 9
+    BoardData:
+    - letters:
+      - C
+      - M
+      - C
+      - V
+      - M
+      - I
+      - N
+      - T
+    - letters:
+      - H
+      - C
+      - O
+      - V
+      - Y
+      - L
+      - A
+      - T
+    - letters:
+      - O
+      - L
+      - F
+      - A
+      - J
+      - E
+      - L
+      - U
+    - letters:
+      - C
+      - A
+      - F
+      - N
+      - P
+      - M
+      - M
+      - N
+    - letters:
+      - O
+      - N
+      - E
+      - I
+      - E
+      - A
+      - O
+      - O
+    - letters:
+      - L
+      - A
+      - E
+      - L
+      - A
+      - R
+      - N
+      - C
+    - letters:
+      - A
+      - N
+      - P
+      - L
+      - C
+      - A
+      - D
+      - O
+    - letters:
+      - T
+      - A
+      - L
+      - A
+      - H
+      - C
+      - Q
+      - C
+    - letters:
+      - E
+      - B
+      - C
+      - H
+      - E
+      - R
+      - R
+      - Y
+    AnswerKeys:
+    - Word: ALMOND
+      row: 1
+      column: 6
+    - Word: BANANA
+      row: 8
+      column: 1
+    - Word: CARAMEL
+      row: 7
+      column: 5
+    - Word: CHERRY
+      row: 8
+      column: 2
+    - Word: CHOCOLATE
+      row: 0
+      column: 0
+    - Word: COCONUT
+      row: 7
+      column: 7
+    - Word: COFFEE
+      row: 0
+      column: 2
+    - Word: MINT
+      row: 0
+      column: 4
+    - Word: PEACH
+      row: 3
+      column: 4
+    - Word: VANILLA
+      row: 1
+      column: 3

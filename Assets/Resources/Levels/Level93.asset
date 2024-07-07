@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level93
+  m_EditorClassIdentifier: 
+  LevelNumber: 93
+  LevelTitle: GOES SLOW
+  SearchableWords:
+  - Word: CANDLE
+  - Word: CHESS
+  - Word: EXAM
+  - Word: LAVA
+  - Word: MOON
+  - Word: MUSIC
+  - Word: PARADE
+  - Word: SLOTH
+  - Word: SNAIL
+  - Word: TRAM
+  - Word: WINTER
+  Board:
+    Columns: 8
+    Rows: 9
+    BoardData:
+    - letters:
+      - R
+      - C
+      - C
+      - E
+      - X
+      - A
+      - M
+      - O
+    - letters:
+      - E
+      - A
+      - I
+      - S
+      - U
+      - P
+      - L
+      - P
+    - letters:
+      - T
+      - N
+      - S
+      - S
+      - S
+      - H
+      - C
+      - A
+    - letters:
+      - N
+      - D
+      - U
+      - N
+      - T
+      - E
+      - V
+      - W
+    - letters:
+      - I
+      - L
+      - M
+      - O
+      - O
+      - A
+      - H
+      - V
+    - letters:
+      - W
+      - E
+      - L
+      - T
+      - L
+      - O
+      - O
+      - C
+    - letters:
+      - C
+      - S
+      - D
+      - S
+      - R
+      - U
+      - M
+      - A
+    - letters:
+      - L
+      - I
+      - A
+      - N
+      - S
+      - A
+      - A
+      - V
+    - letters:
+      - P
+      - A
+      - R
+      - A
+      - D
+      - E
+      - M
+      - V
+    AnswerKeys:
+    - Word: CANDLE
+      row: 0
+      column: 1
+    - Word: CHESS
+      row: 5
+      column: 7
+    - Word: EXAM
+      row: 0
+      column: 3
+    - Word: LAVA
+      row: 5
+      column: 4
+    - Word: MOON
+      row: 6
+      column: 6
+    - Word: MUSIC
+      row: 4
+      column: 2
+    - Word: PARADE
+      row: 8
+      column: 0
+    - Word: SLOTH
+      row: 6
+      column: 1
+    - Word: SNAIL
+      row: 7
+      column: 4
+    - Word: TRAM
+      row: 5
+      column: 3
+    - Word: WINTER
+      row: 5
+      column: 0

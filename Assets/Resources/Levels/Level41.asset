@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level41
+  m_EditorClassIdentifier: 
+  LevelNumber: 41
+  LevelTitle: CLOTHING
+  SearchableWords:
+  - Word: APRON
+  - Word: ATTIRE
+  - Word: BLOUSE
+  - Word: GLOVES
+  - Word: SCARF
+  - Word: SHIRT
+  - Word: SUIT
+  - Word: TOP
+  Board:
+    Columns: 7
+    Rows: 8
+    BoardData:
+    - letters:
+      - G
+      - L
+      - O
+      - V
+      - E
+      - S
+      - V
+    - letters:
+      - E
+      - R
+      - I
+      - T
+      - T
+      - A
+      - T
+    - letters:
+      - E
+      - S
+      - U
+      - P
+      - S
+      - T
+      - B
+    - letters:
+      - A
+      - P
+      - C
+      - H
+      - I
+      - O
+      - L
+    - letters:
+      - H
+      - P
+      - I
+      - A
+      - N
+      - P
+      - O
+    - letters:
+      - N
+      - R
+      - R
+      - V
+      - R
+      - G
+      - U
+    - letters:
+      - T
+      - S
+      - V
+      - O
+      - N
+      - F
+      - S
+    - letters:
+      - S
+      - U
+      - I
+      - T
+      - N
+      - U
+      - E
+    AnswerKeys:
+    - Word: APRON
+      row: 3
+      column: 0
+    - Word: ATTIRE
+      row: 1
+      column: 5
+    - Word: BLOUSE
+      row: 2
+      column: 6
+    - Word: GLOVES
+      row: 0
+      column: 0
+    - Word: SCARF
+      row: 2
+      column: 1
+    - Word: SHIRT
+      row: 2
+      column: 4
+    - Word: SUIT
+      row: 7
+      column: 0
+    - Word: TOP
+      row: 2
+      column: 5

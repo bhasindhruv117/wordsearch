@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level53
+  m_EditorClassIdentifier: 
+  LevelNumber: 53
+  LevelTitle: UNDERGROUND THINGS
+  SearchableWords:
+  - Word: DUNGEON
+  - Word: FOSSIL
+  - Word: METRO
+  - Word: OIL
+  - Word: PIPE
+  - Word: PITS
+  - Word: TUBE
+  - Word: VAULT
+  - Word: WATER
+  Board:
+    Columns: 7
+    Rows: 8
+    BoardData:
+    - letters:
+      - D
+      - U
+      - N
+      - G
+      - E
+      - O
+      - N
+    - letters:
+      - W
+      - L
+      - I
+      - S
+      - S
+      - O
+      - F
+    - letters:
+      - S
+      - A
+      - L
+      - I
+      - O
+      - S
+      - T
+    - letters:
+      - T
+      - S
+      - T
+      - T
+      - W
+      - L
+      - D
+    - letters:
+      - I
+      - W
+      - U
+      - E
+      - U
+      - R
+      - T
+    - letters:
+      - P
+      - B
+      - E
+      - A
+      - R
+      - L
+      - E
+    - letters:
+      - E
+      - B
+      - V
+      - E
+      - P
+      - I
+      - P
+    - letters:
+      - M
+      - P
+      - O
+      - R
+      - T
+      - E
+      - M
+    AnswerKeys:
+    - Word: DUNGEON
+      row: 0
+      column: 0
+    - Word: FOSSIL
+      row: 1
+      column: 6
+    - Word: METRO
+      row: 7
+      column: 6
+    - Word: OIL
+      row: 2
+      column: 4
+    - Word: PIPE
+      row: 6
+      column: 6
+    - Word: PITS
+      row: 5
+      column: 0
+    - Word: TUBE
+      row: 3
+      column: 3
+    - Word: VAULT
+      row: 6
+      column: 2
+    - Word: WATER
+      row: 1
+      column: 0

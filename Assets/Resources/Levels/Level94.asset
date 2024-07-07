@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level94
+  m_EditorClassIdentifier: 
+  LevelNumber: 94
+  LevelTitle: COLORS
+  SearchableWords:
+  - Word: AMBER
+  - Word: AQUA
+  - Word: BEIGE
+  - Word: BRONZE
+  - Word: COPPER
+  - Word: GREY
+  - Word: JADE
+  - Word: LIME
+  - Word: MAROON
+  - Word: ORANGE
+  - Word: PALE
+  - Word: PINK
+  - Word: ROSE
+  - Word: WHITE
+  Board:
+    Columns: 9
+    Rows: 10
+    BoardData:
+    - letters:
+      - T
+      - Y
+      - H
+      - E
+      - L
+      - R
+      - E
+      - T
+      - E
+    - letters:
+      - E
+      - E
+      - M
+      - J
+      - L
+      - Z
+      - O
+      - M
+      - B
+    - letters:
+      - B
+      - G
+      - A
+      - C
+      - N
+      - A
+      - I
+      - S
+      - K
+    - letters:
+      - E
+      - D
+      - I
+      - O
+      - O
+      - L
+      - P
+      - M
+      - E
+    - letters:
+      - E
+      - G
+      - R
+      - E
+      - R
+      - P
+      - A
+      - O
+      - Q
+    - letters:
+      - E
+      - B
+      - N
+      - E
+      - B
+      - R
+      - P
+      - A
+      - O
+    - letters:
+      - C
+      - T
+      - B
+      - A
+      - O
+      - P
+      - U
+      - E
+      - Y
+    - letters:
+      - B
+      - M
+      - I
+      - O
+      - R
+      - Q
+      - I
+      - E
+      - R
+    - letters:
+      - A
+      - A
+      - N
+      - H
+      - A
+      - O
+      - R
+      - N
+      - T
+    - letters:
+      - Y
+      - S
+      - J
+      - C
+      - W
+      - G
+      - U
+      - W
+      - K
+    AnswerKeys:
+    - Word: AMBER
+      row: 8
+      column: 0
+    - Word: AQUA
+      row: 8
+      column: 4
+    - Word: BEIGE
+      row: 5
+      column: 4
+    - Word: BRONZE
+      row: 5
+      column: 1
+    - Word: COPPER
+      row: 2
+      column: 3
+    - Word: GREY
+      row: 9
+      column: 5
+    - Word: JADE
+      row: 1
+      column: 3
+    - Word: LIME
+      row: 3
+      column: 5
+    - Word: MAROON
+      row: 3
+      column: 7
+    - Word: ORANGE
+      row: 8
+      column: 5
+    - Word: PALE
+      row: 3
+      column: 6
+    - Word: PINK
+      row: 6
+      column: 5
+    - Word: ROSE
+      row: 0
+      column: 5
+    - Word: WHITE
+      row: 9
+      column: 4

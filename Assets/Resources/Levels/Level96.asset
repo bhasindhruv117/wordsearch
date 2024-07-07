@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level96
+  m_EditorClassIdentifier: 
+  LevelNumber: 96
+  LevelTitle: HATS
+  SearchableWords:
+  - Word: BERET
+  - Word: BOATER
+  - Word: BONNET
+  - Word: CAP
+  - Word: CROWN
+  - Word: HAT
+  - Word: HELMET
+  - Word: KNIT
+  - Word: PARTY
+  - Word: TURBAN
+  - Word: VISOR
+  Board:
+    Columns: 8
+    Rows: 9
+    BoardData:
+    - letters:
+      - I
+      - H
+      - U
+      - C
+      - R
+      - H
+      - B
+      - I
+    - letters:
+      - C
+      - M
+      - E
+      - O
+      - R
+      - O
+      - A
+      - T
+    - letters:
+      - Y
+      - A
+      - S
+      - L
+      - A
+      - O
+      - U
+      - T
+    - letters:
+      - W
+      - I
+      - P
+      - T
+      - M
+      - R
+      - W
+      - T
+    - letters:
+      - V
+      - Y
+      - E
+      - T
+      - B
+      - E
+      - E
+      - N
+    - letters:
+      - K
+      - R
+      - T
+      - A
+      - E
+      - N
+      - T
+      - R
+    - letters:
+      - S
+      - N
+      - N
+      - R
+      - N
+      - R
+      - C
+      - W
+    - letters:
+      - C
+      - S
+      - I
+      - O
+      - A
+      - W
+      - E
+      - T
+    - letters:
+      - H
+      - T
+      - B
+      - T
+      - H
+      - P
+      - T
+      - B
+    AnswerKeys:
+    - Word: BERET
+      row: 8
+      column: 7
+    - Word: BOATER
+      row: 0
+      column: 6
+    - Word: BONNET
+      row: 8
+      column: 2
+    - Word: CAP
+      row: 1
+      column: 0
+    - Word: CROWN
+      row: 0
+      column: 3
+    - Word: HAT
+      row: 0
+      column: 5
+    - Word: HELMET
+      row: 0
+      column: 1
+    - Word: KNIT
+      row: 5
+      column: 0
+    - Word: PARTY
+      row: 8
+      column: 5
+    - Word: TURBAN
+      row: 1
+      column: 7
+    - Word: VISOR
+      row: 4
+      column: 0

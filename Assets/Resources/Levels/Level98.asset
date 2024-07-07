@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level98
+  m_EditorClassIdentifier: 
+  LevelNumber: 98
+  LevelTitle: WEAPONS
+  SearchableWords:
+  - Word: BOMB
+  - Word: DAGGER
+  - Word: EMOTION
+  - Word: FOIL
+  - Word: LANCE
+  - Word: MACE
+  - Word: MINE
+  - Word: MISSILE
+  - Word: SHELL
+  - Word: SHOTGUN
+  - Word: TANK
+  Board:
+    Columns: 8
+    Rows: 9
+    BoardData:
+    - letters:
+      - S
+      - D
+      - L
+      - L
+      - B
+      - L
+      - L
+      - K
+    - letters:
+      - M
+      - F
+      - A
+      - M
+      - N
+      - I
+      - A
+      - E
+    - letters:
+      - T
+      - I
+      - O
+      - G
+      - S
+      - O
+      - N
+      - M
+    - letters:
+      - E
+      - B
+      - S
+      - H
+      - G
+      - F
+      - C
+      - O
+    - letters:
+      - G
+      - C
+      - E
+      - S
+      - M
+      - E
+      - E
+      - T
+    - letters:
+      - B
+      - L
+      - A
+      - I
+      - I
+      - G
+      - R
+      - I
+    - letters:
+      - L
+      - M
+      - N
+      - M
+      - K
+      - L
+      - E
+      - O
+    - letters:
+      - C
+      - E
+      - K
+      - N
+      - A
+      - T
+      - E
+      - N
+    - letters:
+      - S
+      - H
+      - O
+      - T
+      - G
+      - U
+      - N
+      - K
+    AnswerKeys:
+    - Word: BOMB
+      row: 3
+      column: 1
+    - Word: DAGGER
+      row: 0
+      column: 1
+    - Word: EMOTION
+      row: 1
+      column: 7
+    - Word: FOIL
+      row: 3
+      column: 5
+    - Word: LANCE
+      row: 0
+      column: 6
+    - Word: MACE
+      row: 6
+      column: 3
+    - Word: MINE
+      row: 4
+      column: 4
+    - Word: MISSILE
+      row: 1
+      column: 0
+    - Word: SHELL
+      row: 2
+      column: 4
+    - Word: SHOTGUN
+      row: 8
+      column: 0
+    - Word: TANK
+      row: 7
+      column: 5

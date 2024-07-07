@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level89
+  m_EditorClassIdentifier: 
+  LevelNumber: 89
+  LevelTitle: SHOPPING
+  SearchableWords:
+  - Word: CARD
+  - Word: CHAIN
+  - Word: DEBIT
+  - Word: FASHION
+  - Word: GROCERY
+  - Word: MALL
+  - Word: MILL
+  - Word: ONLINE
+  - Word: OUTLET
+  - Word: SALE
+  - Word: SELL
+  - Word: SHOE
+  - Word: STAND
+  - Word: TAX
+  Board:
+    Columns: 9
+    Rows: 10
+    BoardData:
+    - letters:
+      - D
+      - S
+      - H
+      - O
+      - E
+      - I
+      - D
+      - O
+      - L
+    - letters:
+      - O
+      - E
+      - L
+      - A
+      - S
+      - X
+      - E
+      - G
+      - L
+    - letters:
+      - S
+      - E
+      - L
+      - L
+      - C
+      - A
+      - B
+      - G
+      - A
+    - letters:
+      - M
+      - I
+      - L
+      - L
+      - X
+      - T
+      - I
+      - S
+      - M
+    - letters:
+      - C
+      - A
+      - R
+      - D
+      - R
+      - T
+      - T
+      - T
+      - F
+    - letters:
+      - T
+      - E
+      - L
+      - T
+      - U
+      - O
+      - E
+      - A
+      - C
+    - letters:
+      - D
+      - A
+      - A
+      - X
+      - T
+      - T
+      - Y
+      - N
+      - H
+    - letters:
+      - C
+      - E
+      - N
+      - I
+      - L
+      - N
+      - O
+      - D
+      - A
+    - letters:
+      - F
+      - A
+      - S
+      - H
+      - I
+      - O
+      - N
+      - N
+      - I
+    - letters:
+      - G
+      - R
+      - O
+      - C
+      - E
+      - R
+      - Y
+      - A
+      - N
+    AnswerKeys:
+    - Word: CARD
+      row: 4
+      column: 0
+    - Word: CHAIN
+      row: 5
+      column: 8
+    - Word: DEBIT
+      row: 0
+      column: 6
+    - Word: FASHION
+      row: 8
+      column: 0
+    - Word: GROCERY
+      row: 9
+      column: 0
+    - Word: MALL
+      row: 3
+      column: 8
+    - Word: MILL
+      row: 3
+      column: 0
+    - Word: ONLINE
+      row: 7
+      column: 6
+    - Word: OUTLET
+      row: 5
+      column: 5
+    - Word: SALE
+      row: 1
+      column: 4
+    - Word: SELL
+      row: 2
+      column: 0
+    - Word: SHOE
+      row: 0
+      column: 1
+    - Word: STAND
+      row: 3
+      column: 7
+    - Word: TAX
+      row: 3
+      column: 5

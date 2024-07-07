@@ -1,0 +1,174 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level40
+  m_EditorClassIdentifier: 
+  LevelNumber: 40
+  LevelTitle: ABOUT PHONE
+  SearchableWords:
+  - Word: BATTERY
+  - Word: CALL
+  - Word: CHARGER
+  - Word: CONTACT
+  - Word: DIAL
+  - Word: LOCK
+  - Word: MEMORY
+  - Word: RINGTONE
+  - Word: SCREEN
+  - Word: SIGNAL
+  - Word: SMART
+  - Word: TEXT
+  - Word: ZOOM
+  Board:
+    Columns: 9
+    Rows: 10
+    BoardData:
+    - letters:
+      - I
+      - T
+      - C
+      - A
+      - T
+      - N
+      - O
+      - C
+      - R
+    - letters:
+      - C
+      - H
+      - A
+      - R
+      - G
+      - E
+      - R
+      - T
+      - I
+    - letters:
+      - F
+      - O
+      - D
+      - M
+      - T
+      - S
+      - Q
+      - N
+      - N
+    - letters:
+      - N
+      - U
+      - O
+      - C
+      - I
+      - E
+      - E
+      - M
+      - G
+    - letters:
+      - L
+      - O
+      - Y
+      - G
+      - S
+      - E
+      - X
+      - D
+      - T
+    - letters:
+      - Z
+      - L
+      - N
+      - L
+      - R
+      - M
+      - I
+      - T
+      - O
+    - letters:
+      - K
+      - A
+      - A
+      - C
+      - O
+      - A
+      - A
+      - V
+      - N
+    - letters:
+      - L
+      - J
+      - S
+      - C
+      - L
+      - C
+      - J
+      - R
+      - E
+    - letters:
+      - M
+      - E
+      - M
+      - O
+      - R
+      - Y
+      - K
+      - X
+      - T
+    - letters:
+      - L
+      - C
+      - B
+      - A
+      - T
+      - T
+      - E
+      - R
+      - Y
+    AnswerKeys:
+    - Word: BATTERY
+      row: 9
+      column: 2
+    - Word: CALL
+      row: 7
+      column: 3
+    - Word: CHARGER
+      row: 1
+      column: 0
+    - Word: CONTACT
+      row: 0
+      column: 7
+    - Word: DIAL
+      row: 4
+      column: 7
+    - Word: LOCK
+      row: 5
+      column: 3
+    - Word: MEMORY
+      row: 8
+      column: 0
+    - Word: RINGTONE
+      row: 0
+      column: 8
+    - Word: SCREEN
+      row: 7
+      column: 2
+    - Word: SIGNAL
+      row: 2
+      column: 5
+    - Word: SMART
+      row: 4
+      column: 4
+    - Word: TEXT
+      row: 2
+      column: 4
+    - Word: ZOOM
+      row: 5
+      column: 0

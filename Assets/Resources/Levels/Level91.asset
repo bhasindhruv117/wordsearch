@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level91
+  m_EditorClassIdentifier: 
+  LevelNumber: 91
+  LevelTitle: TYPES OF LIGHT
+  SearchableWords:
+  - Word: ARC
+  - Word: AURA
+  - Word: BEACON
+  - Word: BULB
+  - Word: CANDLE
+  - Word: ELECTRIC
+  - Word: LAMP
+  - Word: NEON
+  - Word: STARRY
+  - Word: TWILIGHT
+  - Word: WAX
+  Board:
+    Columns: 8
+    Rows: 9
+    BoardData:
+    - letters:
+      - E
+      - I
+      - S
+      - B
+      - P
+      - C
+      - E
+      - T
+    - letters:
+      - A
+      - L
+      - U
+      - T
+      - A
+      - M
+      - H
+      - A
+    - letters:
+      - G
+      - L
+      - E
+      - N
+      - A
+      - G
+      - A
+      - N
+    - letters:
+      - B
+      - B
+      - D
+      - C
+      - I
+      - R
+      - P
+      - L
+    - letters:
+      - A
+      - L
+      - E
+      - L
+      - T
+      - N
+      - R
+      - C
+    - letters:
+      - E
+      - R
+      - I
+      - A
+      - O
+      - R
+      - R
+      - Y
+    - letters:
+      - W
+      - W
+      - U
+      - E
+      - C
+      - A
+      - I
+      - M
+    - letters:
+      - T
+      - A
+      - N
+      - A
+      - D
+      - O
+      - T
+      - C
+    - letters:
+      - Y
+      - N
+      - X
+      - O
+      - C
+      - U
+      - N
+      - I
+    AnswerKeys:
+    - Word: ARC
+      row: 6
+      column: 5
+    - Word: AURA
+      row: 7
+      column: 3
+    - Word: BEACON
+      row: 3
+      column: 1
+    - Word: BULB
+      row: 0
+      column: 3
+    - Word: CANDLE
+      row: 0
+      column: 5
+    - Word: ELECTRIC
+      row: 0
+      column: 0
+    - Word: LAMP
+      row: 3
+      column: 7
+    - Word: NEON
+      row: 7
+      column: 2
+    - Word: STARRY
+      row: 0
+      column: 2
+    - Word: TWILIGHT
+      row: 7
+      column: 0
+    - Word: WAX
+      row: 6
+      column: 0

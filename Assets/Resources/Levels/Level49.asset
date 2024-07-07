@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level49
+  m_EditorClassIdentifier: 
+  LevelNumber: 49
+  LevelTitle: IN PAIRS
+  SearchableWords:
+  - Word: COUPLE
+  - Word: CRUTCH
+  - Word: EAR
+  - Word: FEET
+  - Word: GLASSES
+  - Word: GLOVES
+  - Word: LUNG
+  - Word: SLIPPER
+  - Word: SPEAKER
+  - Word: TWIN
+  Board:
+    Columns: 8
+    Rows: 9
+    BoardData:
+    - letters:
+      - P
+      - Y
+      - L
+      - S
+      - P
+      - E
+      - G
+      - I
+    - letters:
+      - N
+      - I
+      - W
+      - T
+      - L
+      - S
+      - L
+      - U
+    - letters:
+      - R
+      - P
+      - T
+      - P
+      - L
+      - E
+      - A
+      - S
+    - letters:
+      - A
+      - E
+      - U
+      - F
+      - U
+      - V
+      - S
+      - P
+    - letters:
+      - R
+      - O
+      - P
+      - T
+      - N
+      - O
+      - S
+      - E
+    - letters:
+      - C
+      - A
+      - E
+      - P
+      - G
+      - L
+      - E
+      - A
+    - letters:
+      - P
+      - E
+      - E
+      - F
+      - I
+      - G
+      - S
+      - K
+    - letters:
+      - F
+      - Y
+      - P
+      - H
+      - E
+      - L
+      - C
+      - E
+    - letters:
+      - H
+      - C
+      - T
+      - U
+      - R
+      - C
+      - S
+      - R
+    AnswerKeys:
+    - Word: COUPLE
+      row: 5
+      column: 0
+    - Word: CRUTCH
+      row: 8
+      column: 5
+    - Word: EAR
+      row: 6
+      column: 2
+    - Word: FEET
+      row: 7
+      column: 0
+    - Word: GLASSES
+      row: 0
+      column: 6
+    - Word: GLOVES
+      row: 6
+      column: 5
+    - Word: LUNG
+      row: 2
+      column: 4
+    - Word: SLIPPER
+      row: 8
+      column: 6
+    - Word: SPEAKER
+      row: 2
+      column: 7
+    - Word: TWIN
+      row: 1
+      column: 3

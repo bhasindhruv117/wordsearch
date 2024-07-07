@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level21
+  m_EditorClassIdentifier: 
+  LevelNumber: 21
+  LevelTitle: MEASURE
+  SearchableWords:
+  - Word: BYTE
+  - Word: FEET
+  - Word: HOUR
+  - Word: INCH
+  - Word: PINT
+  - Word: SECOND
+  - Word: WIDTH
+  Board:
+    Columns: 6
+    Rows: 7
+    BoardData:
+    - letters:
+      - B
+      - Y
+      - T
+      - E
+      - T
+      - W
+    - letters:
+      - D
+      - F
+      - F
+      - E
+      - H
+      - I
+    - letters:
+      - N
+      - N
+      - E
+      - W
+      - O
+      - D
+    - letters:
+      - N
+      - F
+      - O
+      - E
+      - U
+      - T
+    - letters:
+      - Y
+      - Y
+      - I
+      - C
+      - R
+      - H
+    - letters:
+      - P
+      - I
+      - N
+      - T
+      - E
+      - D
+    - letters:
+      - S
+      - I
+      - N
+      - C
+      - H
+      - S
+    AnswerKeys:
+    - Word: BYTE
+      row: 0
+      column: 0
+    - Word: FEET
+      row: 3
+      column: 1
+    - Word: HOUR
+      row: 1
+      column: 4
+    - Word: INCH
+      row: 6
+      column: 1
+    - Word: PINT
+      row: 5
+      column: 0
+    - Word: SECOND
+      row: 6
+      column: 5
+    - Word: WIDTH
+      row: 0
+      column: 5

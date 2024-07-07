@@ -1,0 +1,174 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level79
+  m_EditorClassIdentifier: 
+  LevelNumber: 79
+  LevelTitle: ROADWAYS
+  SearchableWords:
+  - Word: AVENUE
+  - Word: BRIDGE
+  - Word: CIRCLE
+  - Word: DECK
+  - Word: DRIVE
+  - Word: HIGHWAY
+  - Word: PASSAGE
+  - Word: RAMP
+  - Word: ROAD
+  - Word: ROUTE
+  - Word: STREET
+  - Word: TRAIL
+  - Word: ZONE
+  Board:
+    Columns: 9
+    Rows: 10
+    BoardData:
+    - letters:
+      - H
+      - R
+      - E
+      - D
+      - T
+      - S
+      - Y
+      - M
+      - S
+    - letters:
+      - O
+      - R
+      - A
+      - G
+      - T
+      - R
+      - C
+      - N
+      - E
+    - letters:
+      - Z
+      - O
+      - Z
+      - R
+      - D
+      - E
+      - A
+      - G
+      - N
+    - letters:
+      - R
+      - O
+      - E
+      - E
+      - L
+      - I
+      - A
+      - I
+      - Y
+    - letters:
+      - E
+      - E
+      - N
+      - C
+      - V
+      - S
+      - R
+      - A
+      - L
+    - letters:
+      - T
+      - U
+      - R
+      - E
+      - S
+      - I
+      - W
+      - B
+      - E
+    - letters:
+      - P
+      - I
+      - N
+      - A
+      - D
+      - H
+      - R
+      - T
+      - V
+    - letters:
+      - C
+      - M
+      - P
+      - E
+      - G
+      - E
+      - U
+      - D
+      - I
+    - letters:
+      - U
+      - L
+      - A
+      - I
+      - V
+      - O
+      - C
+      - E
+      - I
+    - letters:
+      - P
+      - G
+      - H
+      - R
+      - R
+      - A
+      - Y
+      - K
+      - W
+    AnswerKeys:
+    - Word: AVENUE
+      row: 9
+      column: 5
+    - Word: BRIDGE
+      row: 5
+      column: 7
+    - Word: CIRCLE
+      row: 7
+      column: 0
+    - Word: DECK
+      row: 6
+      column: 4
+    - Word: DRIVE
+      row: 7
+      column: 7
+    - Word: HIGHWAY
+      row: 9
+      column: 2
+    - Word: PASSAGE
+      row: 7
+      column: 2
+    - Word: RAMP
+      row: 9
+      column: 3
+    - Word: ROAD
+      row: 3
+      column: 0
+    - Word: ROUTE
+      row: 9
+      column: 4
+    - Word: STREET
+      row: 0
+      column: 5
+    - Word: TRAIL
+      row: 0
+      column: 4
+    - Word: ZONE
+      row: 2
+      column: 0

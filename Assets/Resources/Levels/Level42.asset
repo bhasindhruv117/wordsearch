@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level42
+  m_EditorClassIdentifier: 
+  LevelNumber: 42
+  LevelTitle: CAN BE HELD
+  SearchableWords:
+  - Word: CALL
+  - Word: CUP
+  - Word: HAMMER
+  - Word: HORSES
+  - Word: MUG
+  - Word: PARTY
+  - Word: PHONE
+  - Word: SNEEZE
+  - Word: THOUGHT
+  - Word: TONGUE
+  - Word: TOY
+  Board:
+    Columns: 8
+    Rows: 9
+    BoardData:
+    - letters:
+      - H
+      - M
+      - S
+      - L
+      - P
+      - Z
+      - Z
+      - P
+    - letters:
+      - E
+      - A
+      - C
+      - E
+      - P
+      - U
+      - H
+      - T
+    - letters:
+      - U
+      - E
+      - M
+      - A
+      - S
+      - O
+      - C
+      - O
+    - letters:
+      - G
+      - T
+      - H
+      - M
+      - N
+      - R
+      - M
+      - Y
+    - letters:
+      - N
+      - L
+      - M
+      - E
+      - E
+      - G
+      - O
+      - P
+    - letters:
+      - O
+      - L
+      - U
+      - G
+      - G
+      - R
+      - S
+      - H
+    - letters:
+      - T
+      - A
+      - G
+      - Y
+      - T
+      - R
+      - A
+      - P
+    - letters:
+      - C
+      - C
+      - S
+      - N
+      - E
+      - E
+      - Z
+      - E
+    - letters:
+      - T
+      - H
+      - O
+      - U
+      - G
+      - H
+      - T
+      - E
+    AnswerKeys:
+    - Word: CALL
+      row: 7
+      column: 1
+    - Word: CUP
+      row: 2
+      column: 6
+    - Word: HAMMER
+      row: 0
+      column: 0
+    - Word: HORSES
+      row: 5
+      column: 7
+    - Word: MUG
+      row: 4
+      column: 2
+    - Word: PARTY
+      row: 6
+      column: 7
+    - Word: PHONE
+      row: 0
+      column: 7
+    - Word: SNEEZE
+      row: 7
+      column: 2
+    - Word: THOUGHT
+      row: 8
+      column: 0
+    - Word: TONGUE
+      row: 6
+      column: 0
+    - Word: TOY
+      row: 1
+      column: 7

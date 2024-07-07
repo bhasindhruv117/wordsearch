@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level84
+  m_EditorClassIdentifier: 
+  LevelNumber: 84
+  LevelTitle: WINTER
+  SearchableWords:
+  - Word: ARCTIC
+  - Word: BLANKET
+  - Word: BLEAK
+  - Word: COAT
+  - Word: GLOVE
+  - Word: JACKET
+  - Word: MELT
+  - Word: SCARF
+  - Word: SKATE
+  - Word: SKI
+  - Word: STORM
+  - Word: STOVE
+  - Word: THAW
+  - Word: WIND
+  Board:
+    Columns: 9
+    Rows: 10
+    BoardData:
+    - letters:
+      - M
+      - M
+      - L
+      - D
+      - S
+      - J
+      - M
+      - F
+      - N
+    - letters:
+      - G
+      - E
+      - N
+      - I
+      - A
+      - T
+      - A
+      - O
+      - V
+    - letters:
+      - W
+      - I
+      - L
+      - C
+      - M
+      - R
+      - O
+      - S
+      - J
+    - letters:
+      - W
+      - A
+      - K
+      - T
+      - C
+      - R
+      - K
+      - V
+      - T
+    - letters:
+      - K
+      - E
+      - H
+      - T
+      - F
+      - A
+      - O
+      - E
+      - E
+    - letters:
+      - T
+      - A
+      - I
+      - T
+      - T
+      - R
+      - K
+      - T
+      - G
+    - letters:
+      - T
+      - C
+      - E
+      - E
+      - I
+      - N
+      - A
+      - L
+      - S
+    - letters:
+      - K
+      - A
+      - I
+      - L
+      - A
+      - K
+      - O
+      - C
+      - H
+    - letters:
+      - I
+      - N
+      - O
+      - L
+      - B
+      - V
+      - S
+      - N
+      - S
+    - letters:
+      - S
+      - C
+      - B
+      - C
+      - E
+      - T
+      - N
+      - J
+      - B
+    AnswerKeys:
+    - Word: ARCTIC
+      row: 1
+      column: 6
+    - Word: BLANKET
+      row: 9
+      column: 2
+    - Word: BLEAK
+      row: 8
+      column: 4
+    - Word: COAT
+      row: 9
+      column: 3
+    - Word: GLOVE
+      row: 5
+      column: 8
+    - Word: JACKET
+      row: 0
+      column: 5
+    - Word: MELT
+      row: 0
+      column: 0
+    - Word: SCARF
+      row: 8
+      column: 8
+    - Word: SKATE
+      row: 2
+      column: 7
+    - Word: SKI
+      row: 8
+      column: 6
+    - Word: STORM
+      row: 6
+      column: 8
+    - Word: STOVE
+      row: 0
+      column: 4
+    - Word: THAW
+      row: 5
+      column: 3
+    - Word: WIND
+      row: 3
+      column: 0

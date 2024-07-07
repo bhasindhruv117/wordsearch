@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level39
+  m_EditorClassIdentifier: 
+  LevelNumber: 39
+  LevelTitle: OUR WORLD
+  SearchableWords:
+  - Word: CLOUD
+  - Word: CONTINENT
+  - Word: LAKE
+  - Word: OCEAN
+  - Word: PLANET
+  - Word: RIVER
+  - Word: SPACE
+  - Word: STAR
+  - Word: VOLCANO
+  Board:
+    Columns: 8
+    Rows: 9
+    BoardData:
+    - letters:
+      - C
+      - O
+      - D
+      - C
+      - L
+      - O
+      - U
+      - D
+    - letters:
+      - O
+      - L
+      - C
+      - L
+      - A
+      - K
+      - E
+      - E
+    - letters:
+      - N
+      - P
+      - J
+      - E
+      - J
+      - H
+      - R
+      - S
+    - letters:
+      - T
+      - R
+      - L
+      - Z
+      - A
+      - U
+      - C
+      - P
+    - letters:
+      - I
+      - A
+      - C
+      - A
+      - T
+      - N
+      - W
+      - A
+    - letters:
+      - N
+      - T
+      - K
+      - A
+      - N
+      - X
+      - U
+      - C
+    - letters:
+      - E
+      - S
+      - N
+      - Y
+      - L
+      - E
+      - O
+      - E
+    - letters:
+      - N
+      - R
+      - I
+      - V
+      - E
+      - R
+      - T
+      - D
+    - letters:
+      - T
+      - V
+      - O
+      - L
+      - C
+      - A
+      - N
+      - O
+    AnswerKeys:
+    - Word: CLOUD
+      row: 0
+      column: 3
+    - Word: CONTINENT
+      row: 0
+      column: 0
+    - Word: LAKE
+      row: 1
+      column: 3
+    - Word: OCEAN
+      row: 0
+      column: 1
+    - Word: PLANET
+      row: 2
+      column: 1
+    - Word: RIVER
+      row: 7
+      column: 1
+    - Word: SPACE
+      row: 2
+      column: 7
+    - Word: STAR
+      row: 6
+      column: 1
+    - Word: VOLCANO
+      row: 8
+      column: 1

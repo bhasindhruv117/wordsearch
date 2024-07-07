@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level100
+  m_EditorClassIdentifier: 
+  LevelNumber: 100
+  LevelTitle: SPORTS
+  SearchableWords:
+  - Word: BALL
+  - Word: BASE
+  - Word: GAME
+  - Word: GYM
+  - Word: JUMP
+  - Word: LEAGUE
+  - Word: MOVE
+  - Word: PADDLE
+  - Word: RUGBY
+  - Word: TEAM
+  - Word: THROW
+  - Word: VAULT
+  Board:
+    Columns: 8
+    Rows: 9
+    BoardData:
+    - letters:
+      - A
+      - E
+      - V
+      - A
+      - U
+      - L
+      - T
+      - T
+    - letters:
+      - P
+      - Y
+      - U
+      - O
+      - J
+      - L
+      - M
+      - H
+    - letters:
+      - A
+      - G
+      - E
+      - G
+      - L
+      - O
+      - A
+      - R
+    - letters:
+      - D
+      - E
+      - E
+      - A
+      - A
+      - B
+      - E
+      - O
+    - letters:
+      - D
+      - E
+      - B
+      - V
+      - R
+      - E
+      - T
+      - W
+    - letters:
+      - L
+      - P
+      - M
+      - U
+      - O
+      - P
+      - L
+      - J
+    - letters:
+      - E
+      - T
+      - G
+      - A
+      - M
+      - M
+      - L
+      - L
+    - letters:
+      - U
+      - B
+      - D
+      - U
+      - G
+      - M
+      - Y
+      - G
+    - letters:
+      - Y
+      - U
+      - J
+      - E
+      - S
+      - A
+      - B
+      - Y
+    AnswerKeys:
+    - Word: BALL
+      row: 4
+      column: 2
+    - Word: BASE
+      row: 8
+      column: 6
+    - Word: GAME
+      row: 7
+      column: 4
+    - Word: GYM
+      row: 7
+      column: 7
+    - Word: JUMP
+      row: 8
+      column: 2
+    - Word: LEAGUE
+      row: 5
+      column: 6
+    - Word: MOVE
+      row: 6
+      column: 5
+    - Word: PADDLE
+      row: 1
+      column: 0
+    - Word: RUGBY
+      row: 4
+      column: 4
+    - Word: TEAM
+      row: 4
+      column: 6
+    - Word: THROW
+      row: 0
+      column: 7
+    - Word: VAULT
+      row: 0
+      column: 2

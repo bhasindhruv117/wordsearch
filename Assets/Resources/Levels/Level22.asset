@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level22
+  m_EditorClassIdentifier: 
+  LevelNumber: 22
+  LevelTitle: BAKING
+  SearchableWords:
+  - Word: CREAM
+  - Word: FUDGE
+  - Word: HONEY
+  - Word: KNEAD
+  - Word: LEMON
+  - Word: MIXER
+  - Word: OIL
+  - Word: POUR
+  - Word: TRAY
+  Board:
+    Columns: 7
+    Rows: 8
+    BoardData:
+    - letters:
+      - N
+      - O
+      - M
+      - E
+      - L
+      - L
+      - I
+    - letters:
+      - D
+      - O
+      - I
+      - L
+      - K
+      - M
+      - O
+    - letters:
+      - E
+      - A
+      - T
+      - K
+      - A
+      - L
+      - H
+    - letters:
+      - G
+      - E
+      - E
+      - E
+      - H
+      - T
+      - O
+    - letters:
+      - D
+      - G
+      - R
+      - N
+      - R
+      - P
+      - N
+    - letters:
+      - U
+      - C
+      - H
+      - A
+      - K
+      - O
+      - E
+    - letters:
+      - F
+      - M
+      - Y
+      - A
+      - H
+      - U
+      - Y
+    - letters:
+      - M
+      - I
+      - X
+      - E
+      - R
+      - R
+      - E
+    AnswerKeys:
+    - Word: CREAM
+      row: 5
+      column: 1
+    - Word: FUDGE
+      row: 6
+      column: 0
+    - Word: HONEY
+      row: 2
+      column: 6
+    - Word: KNEAD
+      row: 5
+      column: 4
+    - Word: LEMON
+      row: 0
+      column: 4
+    - Word: MIXER
+      row: 7
+      column: 0
+    - Word: OIL
+      row: 1
+      column: 1
+    - Word: POUR
+      row: 4
+      column: 5
+    - Word: TRAY
+      row: 3
+      column: 5

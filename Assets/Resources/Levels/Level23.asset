@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level23
+  m_EditorClassIdentifier: 
+  LevelNumber: 23
+  LevelTitle: CAN BE HOLLOW
+  SearchableWords:
+  - Word: BUCKET
+  - Word: CANOE
+  - Word: CAVITY
+  - Word: CHEEKS
+  - Word: DENT
+  - Word: DRUM
+  - Word: FLASK
+  - Word: GOURD
+  - Word: LOG
+  - Word: PIPE
+  - Word: VASE
+  Board:
+    Columns: 8
+    Rows: 9
+    BoardData:
+    - letters:
+      - T
+      - S
+      - K
+      - E
+      - E
+      - H
+      - C
+      - C
+    - letters:
+      - E
+      - G
+      - P
+      - F
+      - S
+      - E
+      - B
+      - E
+    - letters:
+      - K
+      - K
+      - E
+      - O
+      - O
+      - P
+      - S
+      - G
+    - letters:
+      - C
+      - D
+      - S
+      - N
+      - R
+      - A
+      - G
+      - O
+    - letters:
+      - U
+      - V
+      - A
+      - A
+      - V
+      - A
+      - O
+      - U
+    - letters:
+      - B
+      - C
+      - K
+      - S
+      - L
+      - V
+      - L
+      - R
+    - letters:
+      - P
+      - I
+      - P
+      - E
+      - A
+      - F
+      - V
+      - D
+    - letters:
+      - D
+      - R
+      - U
+      - M
+      - D
+      - E
+      - N
+      - T
+    - letters:
+      - Y
+      - T
+      - I
+      - V
+      - A
+      - C
+      - Y
+      - M
+    AnswerKeys:
+    - Word: BUCKET
+      row: 5
+      column: 0
+    - Word: CANOE
+      row: 5
+      column: 1
+    - Word: CAVITY
+      row: 8
+      column: 5
+    - Word: CHEEKS
+      row: 0
+      column: 6
+    - Word: DENT
+      row: 7
+      column: 4
+    - Word: DRUM
+      row: 7
+      column: 0
+    - Word: FLASK
+      row: 6
+      column: 5
+    - Word: GOURD
+      row: 2
+      column: 7
+    - Word: LOG
+      row: 5
+      column: 6
+    - Word: PIPE
+      row: 6
+      column: 0
+    - Word: VASE
+      row: 4
+      column: 4

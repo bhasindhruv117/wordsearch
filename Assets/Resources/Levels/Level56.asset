@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level56
+  m_EditorClassIdentifier: 
+  LevelNumber: 56
+  LevelTitle: IN A PLANE
+  SearchableWords:
+  - Word: AISLE
+  - Word: BLANKET
+  - Word: COCKPIT
+  - Word: CREW
+  - Word: EXIT
+  - Word: LUGGAGE
+  - Word: WINDOW
+  Board:
+    Columns: 7
+    Rows: 8
+    BoardData:
+    - letters:
+      - T
+      - I
+      - P
+      - K
+      - C
+      - O
+      - C
+    - letters:
+      - E
+      - L
+      - S
+      - I
+      - A
+      - B
+      - L
+    - letters:
+      - W
+      - I
+      - P
+      - C
+      - W
+      - L
+      - U
+    - letters:
+      - D
+      - B
+      - R
+      - O
+      - O
+      - A
+      - G
+    - letters:
+      - A
+      - E
+      - E
+      - E
+      - D
+      - N
+      - G
+    - letters:
+      - W
+      - B
+      - X
+      - O
+      - N
+      - K
+      - A
+    - letters:
+      - I
+      - I
+      - L
+      - T
+      - I
+      - E
+      - G
+    - letters:
+      - T
+      - G
+      - X
+      - C
+      - W
+      - T
+      - E
+    AnswerKeys:
+    - Word: AISLE
+      row: 1
+      column: 4
+    - Word: BLANKET
+      row: 1
+      column: 5
+    - Word: COCKPIT
+      row: 0
+      column: 6
+    - Word: CREW
+      row: 2
+      column: 3
+    - Word: EXIT
+      row: 4
+      column: 3
+    - Word: LUGGAGE
+      row: 1
+      column: 6
+    - Word: WINDOW
+      row: 7
+      column: 4

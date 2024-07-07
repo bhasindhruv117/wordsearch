@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level82
+  m_EditorClassIdentifier: 
+  LevelNumber: 82
+  LevelTitle: PAINTING TOOLS
+  SearchableWords:
+  - Word: CHALK
+  - Word: CLOTH
+  - Word: COAL
+  - Word: COLOR
+  - Word: DYE
+  - Word: ENAMEL
+  - Word: KIT
+  - Word: PAPER
+  - Word: PASTEL
+  - Word: PENCIL
+  - Word: POLISH
+  - Word: SAND
+  - Word: SPRAY
+  - Word: WOOD
+  Board:
+    Columns: 9
+    Rows: 10
+    BoardData:
+    - letters:
+      - S
+      - E
+      - H
+      - T
+      - O
+      - L
+      - C
+      - A
+      - C
+    - letters:
+      - R
+      - S
+      - N
+      - S
+      - P
+      - R
+      - A
+      - Y
+      - O
+    - letters:
+      - E
+      - P
+      - M
+      - A
+      - C
+      - M
+      - P
+      - P
+      - A
+    - letters:
+      - P
+      - M
+      - P
+      - H
+      - M
+      - A
+      - W
+      - O
+      - L
+    - letters:
+      - A
+      - L
+      - A
+      - E
+      - S
+      - E
+      - D
+      - L
+      - E
+    - letters:
+      - P
+      - L
+      - I
+      - T
+      - N
+      - Y
+      - L
+      - I
+      - W
+    - letters:
+      - K
+      - Y
+      - E
+      - I
+      - E
+      - C
+      - N
+      - S
+      - O
+    - letters:
+      - N
+      - L
+      - S
+      - T
+      - H
+      - O
+      - I
+      - H
+      - O
+    - letters:
+      - A
+      - E
+      - I
+      - S
+      - A
+      - N
+      - D
+      - L
+      - D
+    - letters:
+      - M
+      - K
+      - R
+      - O
+      - L
+      - O
+      - C
+      - Y
+      - P
+    AnswerKeys:
+    - Word: CHALK
+      row: 2
+      column: 4
+    - Word: CLOTH
+      row: 0
+      column: 6
+    - Word: COAL
+      row: 0
+      column: 8
+    - Word: COLOR
+      row: 9
+      column: 6
+    - Word: DYE
+      row: 4
+      column: 6
+    - Word: ENAMEL
+      row: 0
+      column: 1
+    - Word: KIT
+      row: 9
+      column: 1
+    - Word: PAPER
+      row: 5
+      column: 0
+    - Word: PASTEL
+      row: 2
+      column: 6
+    - Word: PENCIL
+      row: 3
+      column: 2
+    - Word: POLISH
+      row: 2
+      column: 7
+    - Word: SAND
+      row: 8
+      column: 3
+    - Word: SPRAY
+      row: 1
+      column: 3
+    - Word: WOOD
+      row: 5
+      column: 8

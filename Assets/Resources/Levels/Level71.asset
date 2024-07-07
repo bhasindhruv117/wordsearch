@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level71
+  m_EditorClassIdentifier: 
+  LevelNumber: 71
+  LevelTitle: WAYS TO SAY 'MANY'
+  SearchableWords:
+  - Word: BUCKET
+  - Word: BUNCH
+  - Word: MASS
+  - Word: PARCEL
+  - Word: PLENTY
+  - Word: SACKS
+  - Word: SUNDRY
+  - Word: SWARM
+  - Word: TONS
+  - Word: WIDE
+  - Word: YARD
+  Board:
+    Columns: 8
+    Rows: 9
+    BoardData:
+    - letters:
+      - U
+      - P
+      - D
+      - H
+      - S
+      - T
+      - Y
+      - W
+    - letters:
+      - S
+      - N
+      - A
+      - K
+      - C
+      - R
+      - H
+      - S
+    - letters:
+      - E
+      - N
+      - C
+      - R
+      - D
+      - N
+      - W
+      - U
+    - letters:
+      - T
+      - A
+      - O
+      - N
+      - C
+      - A
+      - U
+      - P
+    - letters:
+      - S
+      - E
+      - U
+      - T
+      - R
+      - E
+      - L
+      - B
+    - letters:
+      - S
+      - S
+      - K
+      - M
+      - Y
+      - E
+      - L
+      - W
+    - letters:
+      - R
+      - S
+      - C
+      - C
+      - N
+      - A
+      - I
+      - W
+    - letters:
+      - U
+      - B
+      - A
+      - T
+      - U
+      - D
+      - R
+      - R
+    - letters:
+      - N
+      - D
+      - Y
+      - M
+      - E
+      - B
+      - N
+      - D
+    AnswerKeys:
+    - Word: BUCKET
+      row: 8
+      column: 5
+    - Word: BUNCH
+      row: 4
+      column: 7
+    - Word: MASS
+      row: 8
+      column: 3
+    - Word: PARCEL
+      row: 0
+      column: 1
+    - Word: PLENTY
+      row: 3
+      column: 7
+    - Word: SACKS
+      row: 4
+      column: 0
+    - Word: SUNDRY
+      row: 5
+      column: 1
+    - Word: SWARM
+      row: 1
+      column: 7
+    - Word: TONS
+      row: 4
+      column: 3
+    - Word: WIDE
+      row: 5
+      column: 7
+    - Word: YARD
+      row: 5
+      column: 4

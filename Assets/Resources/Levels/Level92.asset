@@ -1,0 +1,174 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level92
+  m_EditorClassIdentifier: 
+  LevelNumber: 92
+  LevelTitle: SHAPE
+  SearchableWords:
+  - Word: ARC
+  - Word: CIRCLE
+  - Word: CUBE
+  - Word: CURVED
+  - Word: CYLINDER
+  - Word: DIAMOND
+  - Word: OVAL
+  - Word: PRISM
+  - Word: PYRAMID
+  - Word: RHOMBUS
+  - Word: SPHERE
+  - Word: STAR
+  - Word: TRIANGLE
+  Board:
+    Columns: 9
+    Rows: 10
+    BoardData:
+    - letters:
+      - A
+      - D
+      - N
+      - O
+      - M
+      - A
+      - I
+      - D
+      - L
+    - letters:
+      - R
+      - T
+      - R
+      - I
+      - A
+      - N
+      - G
+      - L
+      - E
+    - letters:
+      - C
+      - R
+      - E
+      - D
+      - N
+      - I
+      - L
+      - Y
+      - C
+    - letters:
+      - U
+      - P
+      - Y
+      - R
+      - A
+      - M
+      - I
+      - D
+      - C
+    - letters:
+      - R
+      - C
+      - I
+      - R
+      - C
+      - L
+      - E
+      - U
+      - S
+    - letters:
+      - O
+      - A
+      - P
+      - P
+      - C
+      - L
+      - R
+      - L
+      - P
+    - letters:
+      - V
+      - Y
+      - T
+      - U
+      - R
+      - V
+      - T
+      - U
+      - H
+    - letters:
+      - A
+      - H
+      - B
+      - S
+      - E
+      - I
+      - V
+      - A
+      - E
+    - letters:
+      - L
+      - E
+      - A
+      - D
+      - E
+      - S
+      - S
+      - R
+      - R
+    - letters:
+      - R
+      - H
+      - O
+      - M
+      - B
+      - U
+      - S
+      - M
+      - E
+    AnswerKeys:
+    - Word: ARC
+      row: 0
+      column: 0
+    - Word: CIRCLE
+      row: 4
+      column: 1
+    - Word: CUBE
+      row: 5
+      column: 4
+    - Word: CURVED
+      row: 3
+      column: 8
+    - Word: CYLINDER
+      row: 2
+      column: 8
+    - Word: DIAMOND
+      row: 0
+      column: 7
+    - Word: OVAL
+      row: 5
+      column: 0
+    - Word: PRISM
+      row: 5
+      column: 3
+    - Word: PYRAMID
+      row: 3
+      column: 1
+    - Word: RHOMBUS
+      row: 9
+      column: 0
+    - Word: SPHERE
+      row: 4
+      column: 8
+    - Word: STAR
+      row: 7
+      column: 3
+    - Word: TRIANGLE
+      row: 1
+      column: 1

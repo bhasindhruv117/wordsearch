@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level75
+  m_EditorClassIdentifier: 
+  LevelNumber: 75
+  LevelTitle: FROZEN
+  SearchableWords:
+  - Word: CHILLED
+  - Word: GLACIER
+  - Word: HARD
+  - Word: ICING
+  - Word: ICY
+  - Word: PEAS
+  - Word: SHIVER
+  - Word: SLEET
+  - Word: SNOW
+  - Word: SOLID
+  - Word: WINTRY
+  Board:
+    Columns: 8
+    Rows: 9
+    BoardData:
+    - letters:
+      - G
+      - W
+      - G
+      - Y
+      - E
+      - W
+      - S
+      - S
+    - letters:
+      - N
+      - D
+      - C
+      - D
+      - I
+      - D
+      - G
+      - N
+    - letters:
+      - I
+      - I
+      - R
+      - N
+      - I
+      - L
+      - W
+      - O
+    - letters:
+      - C
+      - O
+      - T
+      - A
+      - A
+      - L
+      - R
+      - W
+    - letters:
+      - I
+      - R
+      - D
+      - C
+      - H
+      - T
+      - O
+      - V
+    - letters:
+      - Y
+      - N
+      - I
+      - P
+      - E
+      - A
+      - S
+      - S
+    - letters:
+      - O
+      - E
+      - S
+      - L
+      - E
+      - E
+      - T
+      - P
+    - letters:
+      - R
+      - C
+      - H
+      - I
+      - L
+      - L
+      - E
+      - D
+    - letters:
+      - S
+      - H
+      - I
+      - V
+      - E
+      - R
+      - E
+      - V
+    AnswerKeys:
+    - Word: CHILLED
+      row: 7
+      column: 1
+    - Word: GLACIER
+      row: 1
+      column: 6
+    - Word: HARD
+      row: 4
+      column: 4
+    - Word: ICING
+      row: 4
+      column: 0
+    - Word: ICY
+      row: 2
+      column: 1
+    - Word: PEAS
+      row: 5
+      column: 3
+    - Word: SHIVER
+      row: 8
+      column: 0
+    - Word: SLEET
+      row: 6
+      column: 2
+    - Word: SNOW
+      row: 0
+      column: 7
+    - Word: SOLID
+      row: 5
+      column: 7
+    - Word: WINTRY
+      row: 0
+      column: 5

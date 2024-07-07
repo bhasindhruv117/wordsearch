@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level63
+  m_EditorClassIdentifier: 
+  LevelNumber: 63
+  LevelTitle: MONEY
+  SearchableWords:
+  - Word: ASSET
+  - Word: BANK
+  - Word: BILL
+  - Word: CASH
+  - Word: CHANGE
+  - Word: DEBT
+  - Word: EQUITY
+  - Word: NOTE
+  - Word: RATE
+  Board:
+    Columns: 7
+    Rows: 8
+    BoardData:
+    - letters:
+      - E
+      - O
+      - O
+      - E
+      - T
+      - Q
+      - A
+    - letters:
+      - E
+      - E
+      - G
+      - N
+      - A
+      - H
+      - C
+    - letters:
+      - Q
+      - N
+      - Q
+      - H
+      - Q
+      - H
+      - B
+    - letters:
+      - U
+      - T
+      - O
+      - T
+      - S
+      - I
+      - O
+    - letters:
+      - I
+      - E
+      - R
+      - T
+      - L
+      - A
+      - O
+    - letters:
+      - T
+      - S
+      - A
+      - L
+      - E
+      - D
+      - C
+    - letters:
+      - Y
+      - S
+      - T
+      - B
+      - A
+      - N
+      - K
+    - letters:
+      - S
+      - A
+      - E
+      - T
+      - B
+      - E
+      - D
+    AnswerKeys:
+    - Word: ASSET
+      row: 7
+      column: 1
+    - Word: BANK
+      row: 6
+      column: 3
+    - Word: BILL
+      row: 2
+      column: 6
+    - Word: CASH
+      row: 5
+      column: 6
+    - Word: CHANGE
+      row: 1
+      column: 6
+    - Word: DEBT
+      row: 7
+      column: 6
+    - Word: EQUITY
+      row: 1
+      column: 0
+    - Word: NOTE
+      row: 2
+      column: 1
+    - Word: RATE
+      row: 4
+      column: 2

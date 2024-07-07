@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level81
+  m_EditorClassIdentifier: 
+  LevelNumber: 81
+  LevelTitle: FIREFIGHTERS
+  SearchableWords:
+  - Word: ALARM
+  - Word: ARSON
+  - Word: ASH
+  - Word: CHAR
+  - Word: CREW
+  - Word: DRILL
+  - Word: HEAT
+  - Word: HELMET
+  - Word: MASK
+  - Word: RADIO
+  - Word: SIREN
+  - Word: WATER
+  Board:
+    Columns: 8
+    Rows: 9
+    BoardData:
+    - letters:
+      - K
+      - D
+      - A
+      - A
+      - A
+      - H
+      - K
+      - S
+    - letters:
+      - K
+      - R
+      - H
+      - R
+      - L
+      - E
+      - S
+      - C
+    - letters:
+      - S
+      - M
+      - S
+      - R
+      - D
+      - A
+      - R
+      - A
+    - letters:
+      - W
+      - O
+      - T
+      - R
+      - A
+      - E
+      - R
+      - N
+    - letters:
+      - N
+      - A
+      - I
+      - E
+      - W
+      - D
+      - E
+      - M
+    - letters:
+      - T
+      - L
+      - T
+      - K
+      - M
+      - R
+      - I
+      - C
+    - letters:
+      - L
+      - A
+      - S
+      - E
+      - I
+      - L
+      - H
+      - O
+    - letters:
+      - T
+      - A
+      - E
+      - S
+      - R
+      - A
+      - E
+      - S
+    - letters:
+      - M
+      - O
+      - T
+      - H
+      - R
+      - H
+      - L
+      - H
+    AnswerKeys:
+    - Word: ALARM
+      row: 0
+      column: 3
+    - Word: ARSON
+      row: 0
+      column: 4
+    - Word: ASH
+      row: 2
+      column: 7
+    - Word: CHAR
+      row: 5
+      column: 7
+    - Word: CREW
+      row: 1
+      column: 7
+    - Word: DRILL
+      row: 2
+      column: 4
+    - Word: HEAT
+      row: 8
+      column: 3
+    - Word: HELMET
+      row: 8
+      column: 7
+    - Word: MASK
+      row: 8
+      column: 0
+    - Word: RADIO
+      row: 2
+      column: 3
+    - Word: SIREN
+      row: 7
+      column: 3
+    - Word: WATER
+      row: 3
+      column: 0

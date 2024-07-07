@@ -1,0 +1,174 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level99
+  m_EditorClassIdentifier: 
+  LevelNumber: 99
+  LevelTitle: CAN BE LOCKED
+  SearchableWords:
+  - Word: ACCOUNT
+  - Word: BOLT
+  - Word: CAR
+  - Word: CHAMBER
+  - Word: COUNTER
+  - Word: EXIT
+  - Word: HANDLE
+  - Word: HEAD
+  - Word: MESH
+  - Word: SHOP
+  - Word: STORE
+  - Word: SWITCH
+  - Word: VEHICLE
+  Board:
+    Columns: 9
+    Rows: 10
+    BoardData:
+    - letters:
+      - X
+      - E
+      - L
+      - U
+      - B
+      - T
+      - R
+      - C
+      - U
+    - letters:
+      - P
+      - A
+      - L
+      - O
+      - M
+      - E
+      - I
+      - C
+      - N
+    - letters:
+      - R
+      - X
+      - L
+      - D
+      - B
+      - E
+      - O
+      - X
+      - T
+    - letters:
+      - H
+      - T
+      - E
+      - M
+      - N
+      - U
+      - S
+      - N
+      - E
+    - letters:
+      - V
+      - C
+      - A
+      - L
+      - N
+      - A
+      - U
+      - H
+      - O
+    - letters:
+      - E
+      - H
+      - T
+      - T
+      - C
+      - O
+      - H
+      - E
+      - E
+    - letters:
+      - C
+      - R
+      - E
+      - I
+      - C
+      - I
+      - S
+      - H
+      - D
+    - letters:
+      - C
+      - R
+      - O
+      - C
+      - W
+      - H
+      - H
+      - A
+      - V
+    - letters:
+      - A
+      - A
+      - A
+      - T
+      - O
+      - S
+      - E
+      - E
+      - D
+    - letters:
+      - E
+      - H
+      - R
+      - P
+      - S
+      - H
+      - C
+      - O
+      - V
+    AnswerKeys:
+    - Word: ACCOUNT
+      row: 8
+      column: 2
+    - Word: BOLT
+      row: 0
+      column: 4
+    - Word: CAR
+      row: 7
+      column: 0
+    - Word: CHAMBER
+      row: 6
+      column: 0
+    - Word: COUNTER
+      row: 1
+      column: 7
+    - Word: EXIT
+      row: 3
+      column: 8
+    - Word: HANDLE
+      row: 5
+      column: 6
+    - Word: HEAD
+      row: 9
+      column: 5
+    - Word: MESH
+      row: 1
+      column: 4
+    - Word: SHOP
+      row: 6
+      column: 6
+    - Word: STORE
+      row: 9
+      column: 4
+    - Word: SWITCH
+      row: 8
+      column: 5
+    - Word: VEHICLE
+      row: 9
+      column: 8

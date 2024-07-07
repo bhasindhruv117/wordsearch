@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level47
+  m_EditorClassIdentifier: 
+  LevelNumber: 47
+  LevelTitle: COLOR RED
+  SearchableWords:
+  - Word: BRIGHT
+  - Word: CHERRY
+  - Word: CROSS
+  - Word: DANGER
+  - Word: FURY
+  - Word: HEALTH
+  - Word: LIFE
+  - Word: PASSION
+  - Word: PLUM
+  - Word: ROSE
+  - Word: RUST
+  Board:
+    Columns: 8
+    Rows: 9
+    BoardData:
+    - letters:
+      - T
+      - B
+      - R
+      - I
+      - G
+      - H
+      - T
+      - I
+    - letters:
+      - S
+      - C
+      - H
+      - E
+      - R
+      - R
+      - Y
+      - A
+    - letters:
+      - U
+      - P
+      - H
+      - T
+      - L
+      - A
+      - E
+      - H
+    - letters:
+      - R
+      - A
+      - D
+      - G
+      - L
+      - A
+      - O
+      - P
+    - letters:
+      - R
+      - S
+      - A
+      - S
+      - F
+      - I
+      - L
+      - A
+    - letters:
+      - O
+      - S
+      - N
+      - P
+      - S
+      - U
+      - F
+      - P
+    - letters:
+      - S
+      - I
+      - G
+      - B
+      - M
+      - O
+      - S
+      - E
+    - letters:
+      - E
+      - O
+      - E
+      - T
+      - B
+      - L
+      - R
+      - D
+    - letters:
+      - T
+      - N
+      - R
+      - F
+      - U
+      - R
+      - Y
+      - C
+    AnswerKeys:
+    - Word: BRIGHT
+      row: 0
+      column: 1
+    - Word: CHERRY
+      row: 1
+      column: 1
+    - Word: CROSS
+      row: 8
+      column: 7
+    - Word: DANGER
+      row: 3
+      column: 2
+    - Word: FURY
+      row: 8
+      column: 3
+    - Word: HEALTH
+      row: 2
+      column: 7
+    - Word: LIFE
+      row: 3
+      column: 4
+    - Word: PASSION
+      row: 2
+      column: 1
+    - Word: PLUM
+      row: 3
+      column: 7
+    - Word: ROSE
+      row: 4
+      column: 0
+    - Word: RUST
+      row: 3
+      column: 0

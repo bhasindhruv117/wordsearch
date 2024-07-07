@@ -1,0 +1,170 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level55
+  m_EditorClassIdentifier: 
+  LevelNumber: 55
+  LevelTitle: STRIPED THINGS
+  SearchableWords:
+  - Word: BARCODE
+  - Word: CONE
+  - Word: FLAG
+  - Word: KILT
+  - Word: RUNWAY
+  - Word: SCARF
+  - Word: SHOE
+  - Word: SHORTS
+  - Word: SHRIMP
+  - Word: SKIRT
+  - Word: SNAIL
+  - Word: UNIFORM
+  Board:
+    Columns: 9
+    Rows: 10
+    BoardData:
+    - letters:
+      - K
+      - F
+      - L
+      - G
+      - T
+      - S
+      - F
+      - S
+      - B
+    - letters:
+      - I
+      - L
+      - G
+      - I
+      - C
+      - B
+      - K
+      - M
+      - F
+    - letters:
+      - L
+      - A
+      - N
+      - A
+      - A
+      - I
+      - W
+      - S
+      - O
+    - letters:
+      - T
+      - G
+      - R
+      - D
+      - R
+      - N
+      - M
+      - T
+      - Y
+    - letters:
+      - E
+      - F
+      - W
+      - T
+      - Y
+      - N
+      - S
+      - R
+      - P
+    - letters:
+      - D
+      - I
+      - C
+      - O
+      - N
+      - E
+      - W
+      - O
+      - M
+    - letters:
+      - M
+      - R
+      - O
+      - F
+      - I
+      - N
+      - U
+      - H
+      - I
+    - letters:
+      - R
+      - U
+      - N
+      - W
+      - A
+      - Y
+      - A
+      - S
+      - R
+    - letters:
+      - S
+      - H
+      - O
+      - E
+      - R
+      - D
+      - U
+      - K
+      - H
+    - letters:
+      - B
+      - A
+      - R
+      - C
+      - O
+      - D
+      - E
+      - D
+      - S
+    AnswerKeys:
+    - Word: BARCODE
+      row: 9
+      column: 0
+    - Word: CONE
+      row: 5
+      column: 2
+    - Word: FLAG
+      row: 0
+      column: 1
+    - Word: KILT
+      row: 0
+      column: 0
+    - Word: RUNWAY
+      row: 7
+      column: 0
+    - Word: SCARF
+      row: 0
+      column: 5
+    - Word: SHOE
+      row: 8
+      column: 0
+    - Word: SHORTS
+      row: 7
+      column: 7
+    - Word: SHRIMP
+      row: 9
+      column: 8
+    - Word: SKIRT
+      row: 0
+      column: 7
+    - Word: SNAIL
+      row: 4
+      column: 6
+    - Word: UNIFORM
+      row: 6
+      column: 6

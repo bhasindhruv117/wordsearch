@@ -1,0 +1,170 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level67
+  m_EditorClassIdentifier: 
+  LevelNumber: 67
+  LevelTitle: NOT ON A DIET
+  SearchableWords:
+  - Word: ALCOHOL
+  - Word: BAGEL
+  - Word: BREAD
+  - Word: CANDY
+  - Word: ECLAIR
+  - Word: FRIES
+  - Word: PIE
+  - Word: PIZZA
+  - Word: PUDDING
+  - Word: SALAMI
+  - Word: SODA
+  - Word: YOGURT
+  Board:
+    Columns: 9
+    Rows: 10
+    BoardData:
+    - letters:
+      - G
+      - Z
+      - L
+      - O
+      - H
+      - O
+      - C
+      - L
+      - A
+    - letters:
+      - S
+      - O
+      - D
+      - A
+      - C
+      - A
+      - N
+      - D
+      - Y
+    - letters:
+      - F
+      - P
+      - U
+      - D
+      - D
+      - I
+      - N
+      - G
+      - Y
+    - letters:
+      - R
+      - D
+      - P
+      - I
+      - Z
+      - Z
+      - A
+      - B
+      - U
+    - letters:
+      - I
+      - E
+      - S
+      - Y
+      - O
+      - G
+      - U
+      - R
+      - T
+    - letters:
+      - E
+      - Y
+      - P
+      - A
+      - B
+      - L
+      - P
+      - C
+      - L
+    - letters:
+      - S
+      - F
+      - L
+      - R
+      - L
+      - I
+      - O
+      - Y
+      - E
+    - letters:
+      - Y
+      - F
+      - E
+      - U
+      - E
+      - A
+      - R
+      - C
+      - G
+    - letters:
+      - N
+      - A
+      - Z
+      - F
+      - Y
+      - U
+      - M
+      - B
+      - A
+    - letters:
+      - D
+      - E
+      - C
+      - L
+      - A
+      - I
+      - R
+      - I
+      - B
+    AnswerKeys:
+    - Word: ALCOHOL
+      row: 0
+      column: 8
+    - Word: BAGEL
+      row: 9
+      column: 8
+    - Word: BREAD
+      row: 5
+      column: 4
+    - Word: CANDY
+      row: 1
+      column: 4
+    - Word: ECLAIR
+      row: 9
+      column: 1
+    - Word: FRIES
+      row: 2
+      column: 0
+    - Word: PIE
+      row: 5
+      column: 6
+    - Word: PIZZA
+      row: 3
+      column: 2
+    - Word: PUDDING
+      row: 2
+      column: 1
+    - Word: SALAMI
+      row: 4
+      column: 2
+    - Word: SODA
+      row: 1
+      column: 0
+    - Word: YOGURT
+      row: 4
+      column: 3

@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level15
+  m_EditorClassIdentifier: 
+  LevelNumber: 15
+  LevelTitle: WORDS STARTING WITH 'A'
+  SearchableWords:
+  - Word: ABLE
+  - Word: ACHE
+  - Word: ACTION
+  - Word: APE
+  - Word: APPLE
+  - Word: ART
+  - Word: AWAY
+  Board:
+    Columns: 6
+    Rows: 7
+    BoardData:
+    - letters:
+      - P
+      - T
+      - A
+      - W
+      - A
+      - Y
+    - letters:
+      - E
+      - A
+      - A
+      - B
+      - L
+      - E
+    - letters:
+      - L
+      - B
+      - C
+      - I
+      - E
+      - E
+    - letters:
+      - P
+      - R
+      - R
+      - H
+      - P
+      - T
+    - letters:
+      - P
+      - O
+      - P
+      - A
+      - E
+      - L
+    - letters:
+      - A
+      - T
+      - R
+      - A
+      - C
+      - C
+    - letters:
+      - N
+      - O
+      - I
+      - T
+      - C
+      - A
+    AnswerKeys:
+    - Word: ABLE
+      row: 1
+      column: 2
+    - Word: ACHE
+      row: 1
+      column: 1
+    - Word: ACTION
+      row: 6
+      column: 5
+    - Word: APE
+      row: 4
+      column: 3
+    - Word: APPLE
+      row: 5
+      column: 0
+    - Word: ART
+      row: 5
+      column: 3
+    - Word: AWAY
+      row: 0
+      column: 2

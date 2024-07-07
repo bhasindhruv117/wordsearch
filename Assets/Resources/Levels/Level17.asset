@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level17
+  m_EditorClassIdentifier: 
+  LevelNumber: 17
+  LevelTitle: AT THE PARK
+  SearchableWords:
+  - Word: BIRDS
+  - Word: GRASS
+  - Word: KIDS
+  - Word: PICNIC
+  - Word: PLAY
+  - Word: SWING
+  - Word: TREES
+  Board:
+    Columns: 6
+    Rows: 7
+    BoardData:
+    - letters:
+      - S
+      - S
+      - D
+      - I
+      - K
+      - S
+    - letters:
+      - Y
+      - W
+      - I
+      - C
+      - E
+      - C
+    - letters:
+      - A
+      - Y
+      - I
+      - E
+      - E
+      - I
+    - letters:
+      - L
+      - L
+      - R
+      - N
+      - C
+      - N
+    - letters:
+      - P
+      - T
+      - T
+      - E
+      - G
+      - C
+    - letters:
+      - S
+      - S
+      - A
+      - R
+      - G
+      - I
+    - letters:
+      - B
+      - I
+      - R
+      - D
+      - S
+      - P
+    AnswerKeys:
+    - Word: BIRDS
+      row: 6
+      column: 0
+    - Word: GRASS
+      row: 5
+      column: 4
+    - Word: KIDS
+      row: 0
+      column: 4
+    - Word: PICNIC
+      row: 6
+      column: 5
+    - Word: PLAY
+      row: 4
+      column: 0
+    - Word: SWING
+      row: 0
+      column: 0
+    - Word: TREES
+      row: 4
+      column: 1

@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level70
+  m_EditorClassIdentifier: 
+  LevelNumber: 70
+  LevelTitle: BITTER THINGS
+  SearchableWords:
+  - Word: ALOE
+  - Word: COFFEE
+  - Word: GINGER
+  - Word: LEMON
+  - Word: MELON
+  - Word: SAFFRON
+  - Word: SESAME
+  - Word: SPINACH
+  - Word: TONIC
+  Board:
+    Columns: 8
+    Rows: 9
+    BoardData:
+    - letters:
+      - C
+      - H
+      - N
+      - E
+      - O
+      - L
+      - A
+      - C
+    - letters:
+      - I
+      - N
+      - G
+      - O
+      - H
+      - N
+      - O
+      - O
+    - letters:
+      - N
+      - W
+      - O
+      - G
+      - M
+      - F
+      - H
+      - S
+    - letters:
+      - O
+      - P
+      - N
+      - L
+      - F
+      - E
+      - W
+      - A
+    - letters:
+      - T
+      - T
+      - I
+      - E
+      - E
+      - C
+      - L
+      - F
+    - letters:
+      - W
+      - C
+      - E
+      - M
+      - S
+      - M
+      - G
+      - F
+    - letters:
+      - R
+      - E
+      - G
+      - N
+      - I
+      - G
+      - F
+      - R
+    - letters:
+      - H
+      - C
+      - A
+      - N
+      - I
+      - P
+      - S
+      - O
+    - letters:
+      - S
+      - E
+      - S
+      - A
+      - M
+      - E
+      - H
+      - N
+    AnswerKeys:
+    - Word: ALOE
+      row: 0
+      column: 6
+    - Word: COFFEE
+      row: 0
+      column: 7
+    - Word: GINGER
+      row: 6
+      column: 5
+    - Word: LEMON
+      row: 4
+      column: 6
+    - Word: MELON
+      row: 5
+      column: 5
+    - Word: SAFFRON
+      row: 2
+      column: 7
+    - Word: SESAME
+      row: 8
+      column: 0
+    - Word: SPINACH
+      row: 7
+      column: 6
+    - Word: TONIC
+      row: 4
+      column: 0

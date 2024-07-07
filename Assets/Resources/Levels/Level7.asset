@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level7
+  m_EditorClassIdentifier: 
+  LevelNumber: 7
+  LevelTitle: THINGS THAT MELT
+  SearchableWords:
+  - Word: BUTTER
+  - Word: CRAYON
+  - Word: GLASS
+  - Word: GOLD
+  - Word: ICE
+  - Word: IRON
+  - Word: SNOW
+  Board:
+    Columns: 6
+    Rows: 7
+    BoardData:
+    - letters:
+      - C
+      - R
+      - A
+      - Y
+      - O
+      - N
+    - letters:
+      - G
+      - Y
+      - D
+      - I
+      - G
+      - R
+    - letters:
+      - R
+      - L
+      - U
+      - C
+      - O
+      - E
+    - letters:
+      - Y
+      - T
+      - A
+      - E
+      - L
+      - T
+    - letters:
+      - T
+      - T
+      - R
+      - S
+      - D
+      - T
+    - letters:
+      - S
+      - N
+      - O
+      - W
+      - S
+      - U
+    - letters:
+      - L
+      - N
+      - O
+      - R
+      - I
+      - B
+    AnswerKeys:
+    - Word: BUTTER
+      row: 6
+      column: 5
+    - Word: CRAYON
+      row: 0
+      column: 0
+    - Word: GLASS
+      row: 1
+      column: 0
+    - Word: GOLD
+      row: 1
+      column: 4
+    - Word: ICE
+      row: 1
+      column: 3
+    - Word: IRON
+      row: 6
+      column: 4
+    - Word: SNOW
+      row: 5
+      column: 0

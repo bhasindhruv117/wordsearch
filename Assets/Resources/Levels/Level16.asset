@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level16
+  m_EditorClassIdentifier: 
+  LevelNumber: 16
+  LevelTitle: PLACES TO LIVE
+  SearchableWords:
+  - Word: BUNGALOW
+  - Word: CARAVAN
+  - Word: CAVE
+  - Word: CHALET
+  - Word: CONDO
+  - Word: COTTAGE
+  - Word: DUPLEX
+  - Word: HOUSE
+  - Word: MANSION
+  - Word: VILLA
+  Board:
+    Columns: 8
+    Rows: 9
+    BoardData:
+    - letters:
+      - N
+      - O
+      - I
+      - S
+      - N
+      - A
+      - M
+      - C
+    - letters:
+      - T
+      - E
+      - L
+      - A
+      - H
+      - C
+      - A
+      - W
+    - letters:
+      - E
+      - S
+      - U
+      - O
+      - H
+      - R
+      - X
+      - O
+    - letters:
+      - A
+      - C
+      - P
+      - B
+      - A
+      - E
+      - E
+      - L
+    - letters:
+      - L
+      - M
+      - O
+      - V
+      - E
+      - V
+      - L
+      - A
+    - letters:
+      - L
+      - C
+      - A
+      - N
+      - N
+      - A
+      - P
+      - G
+    - letters:
+      - I
+      - N
+      - A
+      - R
+      - D
+      - C
+      - U
+      - N
+    - letters:
+      - V
+      - G
+      - L
+      - E
+      - R
+      - O
+      - D
+      - U
+    - letters:
+      - C
+      - O
+      - T
+      - T
+      - A
+      - G
+      - E
+      - B
+    AnswerKeys:
+    - Word: BUNGALOW
+      row: 8
+      column: 7
+    - Word: CARAVAN
+      row: 0
+      column: 7
+    - Word: CAVE
+      row: 6
+      column: 5
+    - Word: CHALET
+      row: 1
+      column: 5
+    - Word: CONDO
+      row: 3
+      column: 1
+    - Word: COTTAGE
+      row: 8
+      column: 0
+    - Word: DUPLEX
+      row: 7
+      column: 6
+    - Word: HOUSE
+      row: 2
+      column: 4
+    - Word: MANSION
+      row: 0
+      column: 6
+    - Word: VILLA
+      row: 7
+      column: 0

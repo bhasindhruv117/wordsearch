@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level59
+  m_EditorClassIdentifier: 
+  LevelNumber: 59
+  LevelTitle: RING THE BELL
+  SearchableWords:
+  - Word: ALARM
+  - Word: CHAPEL
+  - Word: CHURCH
+  - Word: DINNER
+  - Word: DOOR
+  - Word: METAL
+  - Word: SOUND
+  - Word: SWING
+  - Word: TING
+  - Word: TONE
+  - Word: TOWER
+  Board:
+    Columns: 8
+    Rows: 9
+    BoardData:
+    - letters:
+      - T
+      - I
+      - N
+      - G
+      - D
+      - O
+      - O
+      - R
+    - letters:
+      - D
+      - I
+      - N
+      - N
+      - E
+      - R
+      - D
+      - R
+    - letters:
+      - M
+      - R
+      - A
+      - L
+      - A
+      - O
+      - C
+      - E
+    - letters:
+      - L
+      - E
+      - N
+      - O
+      - T
+      - H
+      - R
+      - W
+    - letters:
+      - L
+      - E
+      - U
+      - D
+      - U
+      - M
+      - G
+      - O
+    - letters:
+      - A
+      - E
+      - P
+      - R
+      - N
+      - N
+      - I
+      - T
+    - letters:
+      - T
+      - D
+      - C
+      - A
+      - I
+      - U
+      - A
+      - D
+    - letters:
+      - E
+      - H
+      - H
+      - W
+      - H
+      - L
+      - O
+      - W
+    - letters:
+      - M
+      - W
+      - S
+      - W
+      - G
+      - C
+      - S
+      - S
+    AnswerKeys:
+    - Word: ALARM
+      row: 2
+      column: 4
+    - Word: CHAPEL
+      row: 8
+      column: 5
+    - Word: CHURCH
+      row: 2
+      column: 6
+    - Word: DINNER
+      row: 1
+      column: 0
+    - Word: DOOR
+      row: 0
+      column: 4
+    - Word: METAL
+      row: 8
+      column: 0
+    - Word: SOUND
+      row: 8
+      column: 7
+    - Word: SWING
+      row: 8
+      column: 2
+    - Word: TING
+      row: 0
+      column: 0
+    - Word: TONE
+      row: 3
+      column: 4
+    - Word: TOWER
+      row: 5
+      column: 7

@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level95
+  m_EditorClassIdentifier: 
+  LevelNumber: 95
+  LevelTitle: MOTHER'S DAY
+  SearchableWords:
+  - Word: BIRTH
+  - Word: CAKE
+  - Word: CANDY
+  - Word: CARD
+  - Word: FAMILY
+  - Word: JEWELS
+  - Word: LADY
+  - Word: PARENT
+  - Word: SWEET
+  - Word: THANKS
+  - Word: TULIPS
+  Board:
+    Columns: 8
+    Rows: 9
+    BoardData:
+    - letters:
+      - J
+      - E
+      - W
+      - E
+      - L
+      - S
+      - P
+      - Y
+    - letters:
+      - S
+      - K
+      - N
+      - A
+      - H
+      - T
+      - M
+      - T
+    - letters:
+      - C
+      - S
+      - P
+      - I
+      - L
+      - U
+      - T
+      - N
+    - letters:
+      - Y
+      - A
+      - N
+      - B
+      - L
+      - N
+      - S
+      - E
+    - letters:
+      - L
+      - K
+      - N
+      - A
+      - I
+      - W
+      - M
+      - R
+    - letters:
+      - I
+      - M
+      - D
+      - D
+      - E
+      - R
+      - E
+      - A
+    - letters:
+      - M
+      - Y
+      - S
+      - E
+      - Y
+      - K
+      - T
+      - P
+    - letters:
+      - A
+      - C
+      - T
+      - J
+      - A
+      - R
+      - S
+      - H
+    - letters:
+      - F
+      - U
+      - K
+      - C
+      - D
+      - R
+      - A
+      - C
+    AnswerKeys:
+    - Word: BIRTH
+      row: 3
+      column: 3
+    - Word: CAKE
+      row: 8
+      column: 3
+    - Word: CANDY
+      row: 2
+      column: 0
+    - Word: CARD
+      row: 8
+      column: 7
+    - Word: FAMILY
+      row: 8
+      column: 0
+    - Word: JEWELS
+      row: 0
+      column: 0
+    - Word: LADY
+      row: 3
+      column: 4
+    - Word: PARENT
+      row: 6
+      column: 7
+    - Word: SWEET
+      row: 3
+      column: 6
+    - Word: THANKS
+      row: 1
+      column: 5
+    - Word: TULIPS
+      row: 2
+      column: 6

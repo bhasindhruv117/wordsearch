@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level68
+  m_EditorClassIdentifier: 
+  LevelNumber: 68
+  LevelTitle: PHOTOGRAPHY
+  SearchableWords:
+  - Word: APERTURE
+  - Word: DIGITAL
+  - Word: EDIT
+  - Word: FOCUS
+  - Word: FRAME
+  - Word: LIGHT
+  - Word: PIXEL
+  - Word: SHOOT
+  - Word: TRIPOD
+  - Word: VIDEO
+  Board:
+    Columns: 8
+    Rows: 9
+    BoardData:
+    - letters:
+      - T
+      - M
+      - E
+      - L
+      - E
+      - X
+      - I
+      - P
+    - letters:
+      - H
+      - U
+      - C
+      - I
+      - E
+      - R
+      - F
+      - E
+    - letters:
+      - G
+      - I
+      - S
+      - M
+      - V
+      - O
+      - O
+      - R
+    - letters:
+      - I
+      - V
+      - A
+      - H
+      - E
+      - R
+      - C
+      - U
+    - letters:
+      - L
+      - R
+      - I
+      - D
+      - O
+      - A
+      - U
+      - T
+    - letters:
+      - F
+      - L
+      - I
+      - E
+      - I
+      - O
+      - S
+      - R
+    - letters:
+      - R
+      - V
+      - E
+      - D
+      - I
+      - T
+      - T
+      - E
+    - letters:
+      - L
+      - A
+      - T
+      - I
+      - G
+      - I
+      - D
+      - P
+    - letters:
+      - L
+      - T
+      - R
+      - I
+      - P
+      - O
+      - D
+      - A
+    AnswerKeys:
+    - Word: APERTURE
+      row: 8
+      column: 7
+    - Word: DIGITAL
+      row: 7
+      column: 6
+    - Word: EDIT
+      row: 6
+      column: 2
+    - Word: FOCUS
+      row: 1
+      column: 6
+    - Word: FRAME
+      row: 5
+      column: 0
+    - Word: LIGHT
+      row: 4
+      column: 0
+    - Word: PIXEL
+      row: 0
+      column: 7
+    - Word: SHOOT
+      row: 2
+      column: 2
+    - Word: TRIPOD
+      row: 8
+      column: 1
+    - Word: VIDEO
+      row: 6
+      column: 1

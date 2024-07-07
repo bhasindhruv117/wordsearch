@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3815a4e8f6aba0c4fbf87794dab60153, type: 3}
+  m_Name: Level10
+  m_EditorClassIdentifier: 
+  LevelNumber: 10
+  LevelTitle: DESERT
+  SearchableWords:
+  - Word: CACTUS
+  - Word: DUNE
+  - Word: HEAT
+  - Word: OASIS
+  - Word: SANDY
+  - Word: SUN
+  Board:
+    Columns: 6
+    Rows: 6
+    BoardData:
+    - letters:
+      - C
+      - A
+      - C
+      - T
+      - U
+      - S
+    - letters:
+      - S
+      - H
+      - E
+      - A
+      - T
+      - S
+    - letters:
+      - S
+      - I
+      - Y
+      - H
+      - A
+      - D
+    - letters:
+      - U
+      - N
+      - S
+      - N
+      - Y
+      - U
+    - letters:
+      - N
+      - O
+      - D
+      - A
+      - C
+      - N
+    - letters:
+      - U
+      - Y
+      - O
+      - E
+      - O
+      - E
+    AnswerKeys:
+    - Word: CACTUS
+      row: 0
+      column: 0
+    - Word: DUNE
+      row: 2
+      column: 5
+    - Word: HEAT
+      row: 1
+      column: 1
+    - Word: OASIS
+      row: 5
+      column: 4
+    - Word: SANDY
+      row: 1
+      column: 5
+    - Word: SUN
+      row: 2
+      column: 0
