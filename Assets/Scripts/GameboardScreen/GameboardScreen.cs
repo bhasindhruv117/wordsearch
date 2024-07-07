@@ -12,6 +12,7 @@ public class GameboardScreen : MonoBehaviour
     [SerializeField] private GameboardGrid _gameboardGrid;
     [SerializeField] private RectTransform _boardArea;
     [SerializeField] private SelectionArea _selectionArea;
+    [SerializeField] private TopHUD _topHUD;
 
     #endregion
 
@@ -35,6 +36,7 @@ public class GameboardScreen : MonoBehaviour
     {
         _searchableWordsPanel.SetupSearchableWords(LevelManager.Instance.CurrentLevelData);
         _gameboardGrid.SetupGameGrid(LevelManager.Instance.CurrentLevelData);
+        _topHUD.InitTopHUD();
         LayoutRebuilder.ForceRebuildLayoutImmediate(_boardArea);
     }
     

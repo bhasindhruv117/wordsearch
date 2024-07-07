@@ -1,4 +1,5 @@
 using System;
+using Newtonsoft.Json;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -81,18 +82,21 @@ public class GameManager : MonoBehaviour
 
     private void LoadPlayerData()
     {
-        string jsonData = string.Empty;
-        _playerData = JsonUtility.FromJson<PlayerData>(jsonData);
+        string jsonData = Util.LoadTextFromFile(FileNames.PLAYER_DATA_FILE_NAME);
+        _playerData = JsonConvert.DeserializeObject<PlayerData>(jsonData);
     }
 
     private void OnApplicationPause(bool pauseStatus)
     {
-        SaveGameState();
+        if (pauseStatus) {
+            SaveGameState();
+        }
     }
 
     private void SaveGameState()
     {
-        var jsonData = JsonUtility.ToJson(_playerData);
+        var jsonData = JsonConvert.SerializeObject(_playerData);
+        Util.WriteTextToFile(FileNames.PLAYER_DATA_FILE_NAME,jsonData);
     }
 
     private void OnDestroy()
