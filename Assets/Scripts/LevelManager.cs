@@ -1,10 +1,11 @@
+using System;
 using UnityEngine;
 
 public class LevelManager : MonoBehaviour
 {
     #region SINGLETON
 
-    public static LevelManager _instance;
+    private static LevelManager _instance;
 
     public static LevelManager Instance => _instance;
 
@@ -30,11 +31,22 @@ public class LevelManager : MonoBehaviour
     private void Awake()
     {
         _instance = this;
+        GameManager.OnLevelChanged += PerformActionOnLevelChanged;
+    }
+
+    private void PerformActionOnLevelChanged()
+    {
+        LoadLevel(GameManager.Instance.PlayerData.CurrentLevel);
     }
 
     public void LoadLevel(int playerDataCurrentLevel)
     {
         string levelString = LEVEL_PREFIX.Replace("{NUMBER}", playerDataCurrentLevel.ToString());
         _currentLevelData = Resources.Load<LevelData>(levelString);
+    }
+
+    private void OnDestroy()
+    {
+        GameManager.OnLevelChanged -= PerformActionOnLevelChanged;
     }
 }

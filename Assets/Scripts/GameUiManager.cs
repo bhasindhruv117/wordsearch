@@ -22,11 +22,23 @@ public class GameUiManager : MonoBehaviour
     private void Awake()
     {
         _instance = this;
+        GameManager.OnLevelChanged += PerformActionOnLevelChanged;
+    }
+
+    private void PerformActionOnLevelChanged()
+    {
+        GameManager.Instance.PlayerData.ResetCurrentLevelProgress();
+        _gameboardScreen.ReInitGameboard();
     }
 
     public void ShowGameboardScreen()
     {
         _gameboardScreen.gameObject.SetActive(true);
         _gameboardScreen.InitGameboard();
+    }
+
+    private void OnDestroy()
+    {
+        GameManager.OnLevelChanged -= PerformActionOnLevelChanged;
     }
 }

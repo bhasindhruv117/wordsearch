@@ -35,10 +35,17 @@ public class GameboardGrid : MonoBehaviour
             var row = levelData.Board.BoardData[i];
             for (int j = 0; j < row.letters.Length; j++)
             {
-                GridLetter letter = Instantiate(_gridLetterPrefab, _gridLayoutGroup.transform)
-                    .GetComponent<GridLetter>();
-                letter.SetupGridLetter(row.letters[j], Mathf.Min(cellHeight, cellWidth));
+                GameObject letterGameObject = Instantiate(_gridLetterPrefab, _gridLayoutGroup.transform);
+                var letter = letterGameObject.transform.GetChild(0).GetComponent<GridLetter>();
+                letter.SetupGridLetter(row.letters[j], Mathf.Min(cellHeight, cellWidth),i,j);
             }
+        }
+    }
+
+    public void Reset()
+    {
+        foreach (Transform child in _gridLayoutGroup.transform) {
+            Destroy(child.gameObject);
         }
     }
 }
