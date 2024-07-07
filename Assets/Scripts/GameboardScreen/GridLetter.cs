@@ -37,4 +37,9 @@ public class GridLetter : MonoBehaviour
         _letter.text = rowLetter;
         _letter.fontSize = MAX_FONT_SIZE * (cellSize / MIN_CELL_SIZE);
     }
+
+    public void UpdateColor(Color32 color)
+    {
+        _letter.color = color;
+    }
 }

@@ -1,13 +1,40 @@
+using System;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using System.Collections.Generic;
+using Random = UnityEngine.Random;
 
 public class SelectionManager : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IDragHandler
 {
     private bool isDragging = false;
     private List<GridLetter> selectedLetters = new List<GridLetter>();
-    private int lastAdjacencyX = -1;
-    private int lastAdjacencyY = -1;
+    private int lastAdjacencyX = Int32.MinValue;
+    private int lastAdjacencyY = Int32.MinValue;
+    private Color32 _selectedColor = new Color32(0, 0, 0, 255);
+    private static Color32 BLACK_COLOR = new Color32(0, 0, 0, 255);
+    
+    public static Color32[] SelectionColors = new Color32[]
+    {
+        new Color32(255, 0, 0, 255),         // Red
+        new Color32(0, 255, 0, 255),         // Green
+        new Color32(0, 0, 255, 255),         // Blue
+        new Color32(255, 255, 0, 255),       // Yellow
+        new Color32(255, 0, 255, 255),       // Magenta
+        new Color32(0, 255, 255, 255),       // Cyan
+        new Color32(128, 128, 128, 255),     // Gray
+        new Color32(255, 165, 0, 255),       // Orange
+        new Color32(0, 128, 0, 255),         // Dark Green
+        new Color32(128, 0, 128, 255)        // Purple
+    };
+    
+    public Color32 GetRandomColor()
+    {
+        // Generate a random index within the bounds of the Colors array
+        int randomIndex = Random.Range(0, SelectionColors.Length);
+        
+        // Return the Color32 at the randomly generated index
+        return SelectionColors[randomIndex];
+    }
 
     public void OnPointerDown(PointerEventData eventData)
     {
@@ -42,6 +69,7 @@ public class SelectionManager : MonoBehaviour, IPointerDownHandler, IPointerUpHa
             {
                 isDragging = true;
                 selectedLetters.Clear();
+                _selectedColor = GetRandomColor();
                 AddLetterToSelection(gridLetter);
                 break; // Only select the first GridLetter found
             }
@@ -77,6 +105,7 @@ public class SelectionManager : MonoBehaviour, IPointerDownHandler, IPointerUpHa
 
     private void EndDrag()
     {
+        GameManager.RaiseOnSelectionEnd();
         if (selectedLetters.Count >= 3)
         {
             // Check if the selected letters form a valid word (horizontally, vertically, or diagonally)
@@ -86,18 +115,30 @@ public class SelectionManager : MonoBehaviour, IPointerDownHandler, IPointerUpHa
             {
                 Debug.Log("Found word: " + selectedWord);
                 GameManager.RaiseOnWordPlayed(selectedWord);
+                UpdateLetterColors(_selectedColor);
                 // Handle valid word found
+            }
+            else
+            {
+                UpdateLetterColors(BLACK_COLOR);
             }
         }
 
         isDragging = false;
-        lastAdjacencyY = -1;
-        lastAdjacencyX = -1;
-        GameManager.RaiseOnSelectionEnd();
+        lastAdjacencyY = Int32.MinValue;
+        lastAdjacencyX = Int32.MinValue;
+    }
+
+    private void UpdateLetterColors(Color32 color)
+    {
+        foreach (var letter in selectedLetters) {
+            letter.UpdateColor(color);
+        }
     }
 
     private void AddLetterToSelection(GridLetter gridLetter)
     {
+        gridLetter.UpdateColor(_selectedColor);
         selectedLetters.Add(gridLetter);
         string letters = string.Empty;
         foreach (var letter in selectedLetters) {
@@ -113,19 +154,21 @@ public class SelectionManager : MonoBehaviour, IPointerDownHandler, IPointerUpHa
         Vector2Int pos2 = new Vector2Int(letter2.GridX, letter2.GridY);
 
         // Calculate the absolute difference in grid positions
-        int dx = Mathf.Abs(pos1.x - pos2.x);
-        int dy = Mathf.Abs(pos1.y - pos2.y);
+        int dx = pos1.x - pos2.x;
+        int dy = pos1.y - pos2.y;
 
-        if (lastAdjacencyX != -1 && lastAdjacencyY != -1 && (dx != lastAdjacencyX || dy != lastAdjacencyY))
+        if (lastAdjacencyX != Int32.MinValue && lastAdjacencyY != Int32.MinValue && (dx != lastAdjacencyX || dy != lastAdjacencyY))
         {
             return false;
             // handle clear selection
         }
 
+        int absDx = Mathf.Abs(dx);
+        int absDy = Mathf.Abs(dy);
         // Check adjacency conditions
-        if ((dx == 1 && dy == 0) ||        // Horizontal adjacency
-            (dx == 0 && dy == 1) ||        // Vertical adjacency
-            (dx == 1 && dy == 1))          // Diagonal adjacency
+        if ((absDx == 1 && absDy == 0) ||        // Horizontal adjacency
+            (absDx == 0 && absDy == 1) ||        // Vertical adjacency
+            (absDx == 1 && absDy == 1))          // Diagonal adjacency
         {
             lastAdjacencyX = dx;
             lastAdjacencyY = dy;
